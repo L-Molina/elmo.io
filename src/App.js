@@ -8,6 +8,7 @@ import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 import Twitter from './components/pages/Twitter';
 import Shoutouts from './components/pages/Shoutouts';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/twitter' element={<Twitter />} />
           <Route path='/shoutouts' element={<Shoutouts />} />
         </Routes>
+        <Footer />
       </Router>
     </>    
   );
