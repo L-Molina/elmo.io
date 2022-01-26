@@ -15,7 +15,7 @@ export default function Shoutouts () {
                 <ul className='shoutout-list'>
                     <li className='shoutout-element'>
                         <h3>Boira (Twitter: <a href="https://twitter.com/El_Boira" target='_blank' rel='noreferrer'>@El_Boira</a>)</h3>
-                        <img src={require('../../images/boira.jpg')}/>
+                        <img src={require('../../images/boira.jpg')} alt=''/>
                         <p>The single best Bowser in Argentina is first on the list.
                         <br/> Not only is he a really strong player with some great results behind him,
                         <br/> but he also cares for the community a lot.
@@ -24,14 +24,14 @@ export default function Shoutouts () {
                     </li>
                     <li className='shoutout-element'>
                         <h3>Venharcore (Twitter: <a href="https://twitter.com/venharcore" rel='noreferrer'>@venharcore</a>)</h3>
-                        <img src={require("../../images/venharcore.jpg" )} />
+                        <img src={require("../../images/venharcore.jpg" )} alt='' />
                         <p>For those of you who dont know him, he is a Chilean Bowser player who,
                         <br/> by the way, has been doing super well results-wise.
                         <br/>Also a big friend of mine, even if we didnt actually play all that often.</p>
                     </li>
                     <li className='shoutout-element'>
                         <h3>Polazo (Twitter: <a href="https://twitter.com/polazo6942" target='_blank' rel='noreferrer'>@polazo6942</a>)</h3>
-                        <img src={require("../../images/polazo.jpg" )} />
+                        <img src={require("../../images/polazo.jpg" )} alt='' />
                         <p>Here we have another Chilean Bowser player. 
                         <br/>For this one I need to provide some context:
                         <br/>So last year, there was an Online South American Character Crew Battle Tournament,
@@ -44,7 +44,7 @@ export default function Shoutouts () {
                     </li>
                     <li className='shoutout-element'>
                         <h3>LeoN (Twitter: <a href="https://twitter.com/DLeon420" target='_blank' rel='noreferrer'>@DLeon420</a>)</h3>
-                        <img src={require("../../images/leon.jpg")} />
+                        <img src={require("../../images/leon.jpg")} alt='' />
                         <p>And now we get to LeoN, the single best Bowser player in the world.
                         <br/>This guy has been an inspiration for me ever since I decided to main Bowser,
                         <br/>which is to be expected. His gameplay opened my eyes to what this Character 
