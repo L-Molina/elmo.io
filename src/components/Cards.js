@@ -19,7 +19,7 @@ function Cards() {
                             src={require('../images/twitch.jpg')}
                             text='Visit my Twitch channel, where I stream Smash Ultimate, Third Strike and other games!'
                             label='Social Media'
-                            path='/services'
+                            path='/socialmedia'
                         />
                     </ul>
                     <ul className='cards__items'>
@@ -33,7 +33,7 @@ function Cards() {
                             src={require('../images/Twitter.png')}
                             text='Take a look at my Twitter! Here I talk about Smash, among other things.'
                             label='Social Media'
-                            path='/twitter'
+                            path='/socialmedia'
                         />
                         <CardItem
                             src={require('../images/bowser-2.jpg')}

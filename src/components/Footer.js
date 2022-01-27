@@ -21,7 +21,7 @@ function Footer() {
             <h2>About Me</h2>
             <Link to='/sign-up'>Description</Link>
             <Link to='/'>My Career</Link>
-            <Link to='/'>Shoutouts</Link>
+            <Link to='/shoutouts'>Shoutouts</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Competitive Journey</h2>
@@ -34,9 +34,9 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>My Social Media</h2>
-            <Link to='/'>Twitch</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='/socialmedia'>Twitch</Link>
+            <Link to='/socialmedia'>Youtube</Link>
+            <Link to='/socialmedia'>Twitter</Link>
           </div>
         </div>
       </div>
@@ -51,16 +51,14 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link'
-              to='/'
-              target='_blank'
+              to='/socialmedia'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
             </Link>
             <Link
               class='social-icon-link'
-              to='/'
-              target='_blank'
+              to='/socialmedia'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />

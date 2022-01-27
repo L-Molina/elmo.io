@@ -9,7 +9,7 @@
 .services,
 .products,
 .sign-up,
-.twitter,
+.socialmedia,
 .shoutouts {
   display: flex;
   flex-flow: column;
@@ -46,14 +46,11 @@
   height: 90vh;
 }
 
-.twitter {
-  background-image: url('./images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-  height: 90vh;
+.socialmedia {
+  background-color: #e0c4c4;
+  color: #290303;
+  font-size: 3rem;
+  height: 145vh;
 }
 
 .shoutouts {
@@ -66,7 +63,7 @@
 .title {
   font-size: 80px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
@@ -76,11 +73,11 @@
   margin-bottom: 50px;
 }
 
-.shoutout-list {
+.list {
   margin-top: 15px;
 }
 
-.shoutout-element {
+.element {
   margin-bottom: 30px;
 }
 

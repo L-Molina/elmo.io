@@ -12,8 +12,8 @@ export default function Shoutouts () {
                 <br/> either because i consider them friends,
                 <br/> or because they inspired me/helped me in my Smash career.
                 <br/> Check them out!</p>
-                <ul className='shoutout-list'>
-                    <li className='shoutout-element'>
+                <ul className='list'>
+                    <li className='element'>
                         <h3>Boira (Twitter: <a href="https://twitter.com/El_Boira" target='_blank' rel='noreferrer'>@El_Boira</a>)</h3>
                         <img src={require('../../images/boira.jpg')} alt=''/>
                         <p>The single best Bowser in Argentina is first on the list.
@@ -22,14 +22,14 @@ export default function Shoutouts () {
                         <br/> I heavily appreciate him for that (haha, see what I did there?)</p>
                         <p>(additional information: <a href="https://twitter.com/tiky_tyki" target='_blank' rel='noreferrer'>@tiky_tyki</a>)</p>
                     </li>
-                    <li className='shoutout-element'>
-                        <h3>Venharcore (Twitter: <a href="https://twitter.com/venharcore" rel='noreferrer'>@venharcore</a>)</h3>
+                    <li className='element'>
+                        <h3>Venharcore (Twitter: <a href="https://twitter.com/venharcore" target='_blank' rel='noreferrer'>@venharcore</a>)</h3>
                         <img src={require("../../images/venharcore.jpg" )} alt='' />
                         <p>For those of you who dont know him, he is a Chilean Bowser player who,
                         <br/> by the way, has been doing super well results-wise.
                         <br/>Also a big friend of mine, even if we didnt actually play all that often.</p>
                     </li>
-                    <li className='shoutout-element'>
+                    <li className='element'>
                         <h3>Polazo (Twitter: <a href="https://twitter.com/polazo6942" target='_blank' rel='noreferrer'>@polazo6942</a>)</h3>
                         <img src={require("../../images/polazo.jpg" )} alt='' />
                         <p>Here we have another Chilean Bowser player. 
@@ -42,7 +42,7 @@ export default function Shoutouts () {
                         <br/>he was kind enough to give me quite a bit of advise about 
                         <br/>what I could be doing better. I still appreciate him for that.</p>
                     </li>
-                    <li className='shoutout-element'>
+                    <li className='element'>
                         <h3>LeoN (Twitter: <a href="https://twitter.com/DLeon420" target='_blank' rel='noreferrer'>@DLeon420</a>)</h3>
                         <img src={require("../../images/leon.jpg")} alt='' />
                         <p>And now we get to LeoN, the single best Bowser player in the world.

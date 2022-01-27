@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
-import Twitter from './components/pages/Twitter';
+import SocialMedia from './components/pages/SocialMedia';
 import Shoutouts from './components/pages/Shoutouts';
 import Footer from './components/Footer';
 
@@ -20,7 +20,7 @@ function App() {
           <Route path='/services' element={<Services />} />
           <Route path='/products' element={<Products />} />
           <Route path='/sign-up' element={<SignUp />} />
-          <Route path='/twitter' element={<Twitter />} />
+          <Route path='/socialmedia' element={<SocialMedia />} />
           <Route path='/shoutouts' element={<Shoutouts />} />
         </Routes>
         <Footer />
