@@ -81,4 +81,48 @@
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 960px) {
+  .socialmedia {
+    height: 130vh;
+    font-size: 2rem;
+  }
+
+  .shoutouts {
+    height: 300vh;
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .body {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .shoutouts {
+    height: 560vh;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .shoutouts {
+    height: 600vh;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .shoutouts {
+    height: 380vh;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .shoutouts {
+    height: 360vh;
+  }
+}
 /* #e0c4c4 #290303 */
