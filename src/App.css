@@ -50,27 +50,29 @@
   background-color: #e0c4c4;
   color: #290303;
   font-size: 3rem;
+  text-align: center;
   height: 145vh;
 }
 
 .shoutouts {
-  height: 350vh;
+  height: 310vh;
   background-color: #e0c4c4;
   color: #290303;
   font-size: 3rem;
 }
 
 .title {
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 50px;
 }
 
 .body {
-  font-size: 30px;
+  font-size: 25px;
   text-align: justify;
   margin-bottom: 50px;
+  width: 60%;
 }
 
 .list {
@@ -81,7 +83,7 @@
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1800px) {
   .socialmedia {
     height: 130vh;
     font-size: 2rem;
@@ -91,38 +93,104 @@
     height: 300vh;
     font-size: 2rem;
   }
+  .title {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .body {
+    font-size: 22px;
+    text-align: justify;
+  }
+
+}
+
+@media screen and (max-width: 1440px) {
+  .socialmedia {
+    height: 130vh;
+    font-size: 2rem;
+  }
+
+  .shoutouts {
+    height: 290vh;
+    font-size: 2rem;
+  }
 
   .title {
-    font-size: 2rem;
+    text-align: center;
+    font-size: 40px;
   }
 
   .body {
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
   }
-}
 
-@media screen and (min-width: 1280px) {
-  .shoutouts {
-    height: 560vh;
+  .list {
+    margin-top: 15px;
   }
-}
-
-@media screen and (max-width: 680px) {
-  .shoutouts {
-    height: 600vh;
+  
+  .element {
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 960px) {
+  .socialmedia {
+    height: 125vh;
+    font-size: 1.5rem;
+  }
+
   .shoutouts {
-    height: 380vh;
+    height: 290vh;
+    font-size: 1.5rem;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .body {
+    font-size: 18px;
+    text-align: center;
+  }
+  .list {
+    margin-top: 15px;
+  }
+  
+  .element {
+    margin-bottom: 20px;
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (max-width: 768px) {
+  .socialmedia {
+    height: 125vh;
+    font-size: 1.5rem;
+  }
+
   .shoutouts {
-    height: 360vh;
+    height: 330vh;
+    font-size: 1.5rem;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .body {
+    font-size: 18px;
+    text-align: center;
+  }
+  .list {
+    margin-top: 15px;
+  }
+  
+  .element {
+    margin-bottom: 20px;
   }
 }
+
 /* #e0c4c4 #290303 */
