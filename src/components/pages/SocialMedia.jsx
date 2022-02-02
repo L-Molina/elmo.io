@@ -20,13 +20,13 @@ export default function SocialMedia () {
                         <h4>YouTube: <a href='https://www.youtube.com/channel/UCWJPI7TW6j_aPxpYLWAij9g/featured' target='_blank' rel='noreferrer'>Elmo</a></h4>
                         <img src={require('../../images/youtube-logo.png')} alt='' />
                         <p>I ocassionally upload videos, usually some
-                        <br/> highlights of my streams on Twitch.</p>
+                        highlights of my streams on Twitch.</p>
                     </li>
                     <li className='element'>
                         <h4>Twitch: <a href='https://www.twitch.tv/ssbu_elmo' target='_blank' rel='noreferrer'>ssbu_elmo</a></h4>
                         <img src={require('../../images/twitch-logo-2019.png')} alt='' />
                         <p>I stream regularly on here, most commonly
-                        <br/> Smash, but possibly some other games like 3rd Strike.</p>
+                        Smash, but possibly some other games like 3rd Strike.</p>
                     </li>
                 </ul>
             </div>
