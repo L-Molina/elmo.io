@@ -9,6 +9,7 @@ import SignUp from './components/pages/SignUp';
 import SocialMedia from './components/pages/SocialMedia';
 import Shoutouts from './components/pages/Shoutouts';
 import Footer from './components/Footer';
+import BowserGuide from './components/pages/BowserGuide';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/sign-up' element={<SignUp />} />
           <Route path='/socialmedia' element={<SocialMedia />} />
           <Route path='/shoutouts' element={<Shoutouts />} />
+          <Route path='/bowser-guide' element={<BowserGuide />} />
         </Routes>
         <Footer />
       </Router>

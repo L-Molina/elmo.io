@@ -39,7 +39,7 @@ function Cards() {
                             src={require('../images/bowser-2.jpg')}
                             text="Here is my Bowser guide, where I break down Bowser's moveset and gameplan!"
                             label='Smash Ultimate'
-                            path='/sign-up'
+                            path='/bowser-guide'
                         />
                     </ul>
                 </div>
