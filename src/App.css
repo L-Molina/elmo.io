@@ -15,6 +15,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  height: auto;
 }
 
 .services {
@@ -24,7 +25,6 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-  height: 90vh;
 }
 
 .products {
@@ -34,7 +34,6 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-  height: 90vh;
 }
 
 .sign-up {
@@ -44,7 +43,6 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-  height: 90vh;
 }
 
 .bowser-guide {
@@ -52,7 +50,6 @@
   color: #290303;
   font-size: 3rem;
   text-align: center;
-  height: 620vh;
 }
 
 .socialmedia {
@@ -60,11 +57,9 @@
   color: #290303;
   font-size: 3rem;
   text-align: center;
-  height: 145vh;
 }
 
 .shoutouts {
-  height: 310vh;
   background-color: #e0c4c4;
   color: #290303;
   font-size: 3rem;
@@ -75,6 +70,11 @@
   text-align: center;
   margin-top: 40px;
   margin-bottom: 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;;
 }
 
 .body {
@@ -94,12 +94,17 @@
 
 @media screen and (max-width: 1800px) {
   .socialmedia {
-    height: 130vh;
+    height: auto;
+    font-size: 2rem;
+  }
+
+  .bowser-guide {
+    height: auto;
     font-size: 2rem;
   }
 
   .shoutouts {
-    height: 300vh;
+    height: auto;
     font-size: 2rem;
   }
   .title {
@@ -111,17 +116,26 @@
     font-size: 22px;
     text-align: justify;
   }
+  img {
+    max-width: 80%;
+    height: auto;
+  }
 
 }
 
 @media screen and (max-width: 1440px) {
   .socialmedia {
-    height: 130vh;
+    height: auto;
+    font-size: 2rem;
+  }
+
+  .bowser-guide {
+    height: auto;
     font-size: 2rem;
   }
 
   .shoutouts {
-    height: 290vh;
+    height: auto;
     font-size: 2rem;
   }
 
@@ -133,6 +147,11 @@
   .body {
     font-size: 20px;
     text-align: justify;
+  }
+  
+  img {
+    max-width: 80%;
+    height: auto;
   }
 
   .list {
@@ -146,12 +165,17 @@
 
 @media screen and (max-width: 960px) {
   .socialmedia {
-    height: 125vh;
+    height: auto;
+    font-size: 1.5rem;
+  }
+
+  .bowser-guide {
+    height: auto;
     font-size: 1.5rem;
   }
 
   .shoutouts {
-    height: 290vh;
+    height: auto;
     font-size: 1.5rem;
   }
 
@@ -164,6 +188,13 @@
     font-size: 18px;
     text-align: justify;
   }
+
+  
+  img {
+    max-width: 70%;
+    height: auto;
+  }
+
   .list {
     margin-top: 15px;
   }
@@ -175,12 +206,17 @@
 
 @media screen and (max-width: 768px) {
   .socialmedia {
-    height: 125vh;
+    height: auto;
+    font-size: 1.5rem;
+  }
+
+  .bowser-guide {
+    height: auto;
     font-size: 1.5rem;
   }
 
   .shoutouts {
-    height: 330vh;
+    height: auto;
     font-size: 1.5rem;
   }
 
@@ -193,6 +229,12 @@
     font-size: 18px;
     text-align: justify;
   }
+  
+  img {
+    max-width: 60%;
+    height: auto;
+  }
+
   .list {
     margin-top: 15px;
   }
