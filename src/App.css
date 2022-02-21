@@ -81,7 +81,7 @@ img {
   font-size: 25px;
   text-align: justify;
   margin-bottom: 50px;
-  width: 60%;
+  width: 80%;
 }
 
 .list {
@@ -141,7 +141,7 @@ img {
 
   .title {
     text-align: center;
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .body {
@@ -181,12 +181,12 @@ img {
 
   .title {
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .body {
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
   }
 
   
@@ -222,12 +222,12 @@ img {
 
   .title {
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
   }
 
   .body {
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
   }
   
   img {

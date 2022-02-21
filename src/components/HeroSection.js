@@ -7,7 +7,7 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <h1>The one, and only, Elmo!</h1>
-            <p>Smash Ultimate (SSBU) Bowser main</p>
+            <p>Smash Ultimate Bowser main</p>
             <p>From: Argentina</p>
             <div className='hero-btns'>
                 <Button
