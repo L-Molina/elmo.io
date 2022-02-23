@@ -25,7 +25,7 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem
                             src={require('../images/bowser.jpg')}
-                            text='Shoutout to the rest of the LA Bowser Community! Here are some players that helped me out a lot!'
+                            text='Shoutout to the rest of the Bowser Community! Here are some players that helped me out a lot!'
                             label='Smash Ultimate'
                             path='/shoutouts'
                         />
