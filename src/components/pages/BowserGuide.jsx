@@ -15,7 +15,7 @@ export default function BowserGuide() {
             <p>Bowser is considered one of the best superheavyweights in Smash Ultimate, 
             and my personal choice for my main. Having focused on this character for over 2 years, 
             it should come as no surprise that I have some things I can teach with it comes to this big turtle.
-            <br/>Its Showtime!</p>
+            <br/>It's Showtime!</p>
             <h3>This guide will be divided into the following sections:</h3>
             <ul className='list'>
                 <li className='element'>
@@ -43,6 +43,20 @@ export default function BowserGuide() {
                 </li>
                 <li className='element'>
                     His Disadvantage
+                    <ul className="list">
+                        <li className="element">Escaping Juggles</li>
+                        <li className="element">Recovery</li>
+                        <li className="element">Getting back from the Ledge</li>
+                    </ul>
+                </li>
+                <li className="element">
+                    Other Notes
+                    <ul className="list">
+                        <li className="element">Tough Guy</li>
+                    </ul>
+                </li>
+                <li className="element">
+                    Conclusion
                 </li>
             </ul>
             </div>
@@ -78,7 +92,7 @@ export default function BowserGuide() {
                         <img src={require("../../images/jab.PNG")} alt="" />
                         <p>Starting off, we have a very strange jab compared to the rest of the cast. Despite its Frame 7 startup, its good range,
                         combined with its surprisingly low ending lag, make it pretty safe to just throw out against
-                        most characters and... Its also a combo starter?
+                        most characters and... It's also a combo starter?
                         Yup, if your opponent is at 0 percent, the full jab comboes into a well timed dash grab, which then goes into upthrow into an aerial. 
                         If that wasnt enough, jab also kills at very high percents, so if you couldnt kill your opponent at 150, you still have this.
                         For those on the know out there, Jab 1 into side B can also work as a kill confirm at very high precents, 
@@ -102,7 +116,7 @@ export default function BowserGuide() {
                         Bowser, if you can believe this, has basically an armored version of it.
                         <br /> So, this move is not great against grounded opponents, but is 
                         basically broken as an antiair. (I mean this)
-                        Its very high kill power, fantastic range, armor and intangibility, make for an amazing tool against anything in the air. 
+                        It's very high kill power, fantastic range, armor and intangibility, make for an amazing tool against anything in the air. 
                         It does have some extremely niche combo potential, mainly with the very last active frame after a jablock,
                         but that isn't very practical. Other than that, you can start your advantage state when it hits, so its definitely not unrewarding.</p>
                     </li>
@@ -150,7 +164,7 @@ export default function BowserGuide() {
                         <p>Here we have probably Bowser's second biggest upgrade from Smash 4. 
                         The change from the second Whirling Foretress to a bigger but laggier version of 
                         Wolf's dsmash was a pretty huge glowup to a move with several good purposes in his toolkit.
-                        <br />Its most obvious utility lies in being used as a faster punish than the other smash attacks, 
+                        <br />It's most obvious utility lies in being used as a faster punish than the other smash attacks, 
                         while not being too shabby killpower-wise. Therefore, it is very useful as a spotdodge read, to punish 
                         ledge regrabs (which dont give you intangibility, in case you didnt know) and as a followup after a jablock, 
                         as well as a way to cover all tech options if in the corner, where they might get hit even if they tech and roll away. 
@@ -213,17 +227,104 @@ export default function BowserGuide() {
                     <li className="element">
                         <h4>Back Air</h4>
                         <img src={require("../../images/bair.PNG")} alt="" />
-                        <p></p>
+                        <p>What a beast of an attack, dude! The frame 9, extremely powerful aerial dropkick is one of Bowser's most dangerous weapons.
+                        <br />However, it is important to keep in mind the extreme amounts of landing lag that it has. Luckily, the exact same autocancel window
+                        that Fair has works with this aerial as well, which makes it terrifying as a shorthop antiair at higher percents. It also makes it a deadly
+                        option to cover ledge jumps to kill.
+                        </p>
                     </li>
                     <li className="element">
                         <h4>Up Air</h4>
                         <img src={require("../../images/upair.PNG")} alt="" />
-                        <p></p>
+                        <p>Nothing too special about this one, to be honest. It's a simple kill move/combo finisher after upthrow and nair extensions. 
+                        It can also be used when landing to get Bowser's maximum damage routes. However, the hitbox is pretty narrow, so it isnt very useful in this context.</p>
                     </li>
                     <li className="element">
                         <h4>Down Air</h4>
                         <img src={require("../../images/dair.PNG")} alt="" />
-                        <p></p>
+                        <p>Your primary way to aggresively land from disadvantage, this move serves as a powerful mixup to switch up the pacing. 
+                        <br />The spike of the early hit also makes it scary to punish opponents recovering predictably, 2 frame in some niche matchups, or 
+                        punishing ledge jumps. It also has a very disjointed landing hit, to make spacing around it when juggling Bowser quite difficult, 
+                        which in turn can condition people to shield.
+                        <br />Another niche use is actually as a footstool followup. Since its fast enough to work in that context, this can work as a frame 
+                        4 option out of shield to punish usually safe attacks and put them in an awkward spot, although it's definitely very specific.
+                        </p>
+                    </li>
+                </ul>
+                <p>Well, that sure was a look at Bowser's aerials. Now lets deep dive into the most important part of his whole kit, his...</p>
+            </div>
+            <div className="title">
+                <h4>Special Moves</h4>
+            </div>
+            <div className="body">
+                <ul className="list">
+                    <li className="element">
+                        <h4>Neutral B: Fire Breath</h4>
+                        <img src={require("../../images/firebreath.png")} alt="" /> <br />
+                        <img src={require("../../images/neutralb.PNG")} alt="" />
+                        <p>Bowser has many good attacks in his moveset, but this one is certainly his best, having been improved vastly from Smash 4.
+                        <br />It has continuous hitboxes that decrease in size the longer you hold the B button. It can also be angled upwards or downwards,
+                        giving it more flexibility in many scenarios.
+                        <br />It's amazing range and exceptional damage allows him to chase down opponents who want to run away or 
+                        try to poke at him with fullhop aerials, as well as punish shorthop antiairs, ledge getups, various characters' recoveries,
+                        and... Shields?
+                        <br />Yes, this move is actually not punishable against shield, since if you block it the hitboxes would most likely drain your shield heavily
+                        until the shield gets poked and you take some damage. It is also not really unsafe on hit, despite being unable to launch opponents or kill.
+                        <br />After catching a recovering opponent with neutral B, you get a chance to gimp them with either forward tilt angled downwards, or forward air,
+                        since they won't be able to inmediately grab the ledge.
+                        </p>
+                    </li>
+                    <li className="element">
+                        <h4>Side B: Flying Slam</h4>
+                        <img src={require("../../images/flyingslam.PNG")} alt="" /> <br />
+                        <img src={require("../../images/sideb.PNG")} alt="" /> 
+                        <p>A command grab is a tool that often defines a grappler, to the point to where their core mixup game revolves around landing these incredibly dangerous moves.
+                        While Bowser's side B might not be as centralizing to his playstyle as some other grapplers even in Smash, this is definitely not a tool to be slept on.
+                        <br />Despite it's respectable range and absurd frame 6 startup, it does have the problem of only being active for a single frame. It is also very laggy, so don't whiff it
+                        unless you want to eat a punish. This can also be a problem when using it as an out of shield option, as it can be very precise to hit a smaller opponent with it.
+                        <br />With all of that being said, the sheer speed of the command grab does make it an unreactable thread when Bowser is nearby. Since its (naturally) unblockable, 
+                        it makes shielding anywhere on the stage, whether on a platform, when he is at the ledge or simply as Bowser jumps at you, extremely unsafe. This is especially true at high percents 
+                        where it will kill. It can also rob your opponents at criminally low percents if they dont know how to DI the slam (for details on Flying Slam DI,
+                        check out <a href="https://i.imgur.com/8LJJaV5.jpg" target='_blank' rel='noreferrer'>this link</a> for an more in-depth look)
+                        <br />Finally, lets talk about the famous Bowsercide: basically, both Bowser and the opponent have control of where the slam will happen, and the level of control 
+                        will favor the player with the lower percentage. So if you are at high percents and bowser is at low percents, he has more control over where you land with Flying Slam.
+                        This is important to remember, as both of you can also redirect the Flying Slam offstage. Whenever this happens, Bowser will die first, and the opponent will be able
+                        to recover, as long as their options allow them to. For example, Meta knight can survive a Bowsercide no matter the stage, so if he gets to control where the Flying Slam
+                        lands and puts you offstage, you just die for using your command grab. 
+                        </p>
+                    </li>
+                    <li className="element">
+                        <h4>Up B: Whirling Fortress</h4>
+                        <img src={require("../../images/whirlingfortress.PNG")} alt="" /> <br />
+                        <img src={require("../../images/upb.PNG")} alt="" />
+                        <img src={require("../../images/upbair.PNG")} alt="" /> 
+                        <p>One of the most unique and notorious attacks ever slapped onto a heavyweight, it became Bowser's best (and often only) way to really relieve shield 
+                        pressure from his opponent, who would otherwise leave Bowser stuck in his shield throughout the entire match. Because of this, it's common to see counterplay 
+                        from opponents to specifically beat up B, like shielding, spacing around it, rolling away or dashing away from it, all of which you can potentially catch.
+                        <br /> Shields are countered by a grab or command grab, escapes can be checked with a long range fire breath or simply by reclaiming stage control, and spacing can be played around similarly, either by 
+                        antiairing someone trying to space you out with aerials, or catching their defensive options afterwards. In other words, as little whiffed up Bs as possible to avoid
+                        getting punished, and be able to use it to catch crossups or close range agression.
+                        <br />It couldnt all be flowers when it comes to Bowser: his recovery can be especially exploitable if you dont know what you're doing. 
+                        <br />To start, his up B in the air has three different distances: for the shortest distance, you need to mash B inmediately after pressing up B, for normal distance you just press up B, 
+                        and for the longest discance you have to start mashing B just as the animation is about to end. To practice the long distance, simply go to ledge, drop from it, double jump and press neutral B,
+                        then try to recover, since you will need to get the longest distance to make it back.
+                        <br />Keep in mind as well, that the up B in the air has a pretty high hitbox that makes it pretty susceptible to being countered offstage, but can also hit opponents
+                        trying to edgeguard you who either go offstage too late or arent shielding at the ledge as a mixup.</p>
+                    </li>
+                    <li className="element">
+                        <h4>Down B: Bowser Bomb</h4>
+                        <img src={require("../../images/bowserbomb.PNG")} alt="" /><br />
+                        <img src={require("../../images/downb.PNG")} alt="" />
+                        <img src={require("../../images/downbair.PNG")} alt="" /> 
+                        <p>Like I mentioned, Bowser's kit isnt ALL broken moves, as down B is merely decent.
+                        <br />Its a shieldbreaker both on the ground and in the air, which can allow you to grab the ledge if close enough, similar to Yoshi. The big downside is it's significantly slower
+                        startup, making it less viable as a mixup tool, since it's slow enough to be escaped if reacted to. That being said, there are many scenarios where the opponent isnt expecting 
+                        you to use a super risky move like this, where it can become a viable option. And, of course, the reward you get off of it will be a stock almost regardless of what percent the
+                        opponent is when you break a shield. It also has a very strong late hit that sends up, as well as an incredibly strong spike for the early hit. 
+                        <br />One of my favorite tricks with Bowser is to use a waveland onto a platform near the ledge to snap it with the down B after you drop off. This can be useful both as a ledgetrump 
+                        setup, and possibly to catch ledge jumps or double jumps back in, which can cheese stocks below 20 percent. It is also really hype to hit when catching a ledge jump even without this trick
+                        (if you want to see some Down B clips, check out my <a href='https://www.youtube.com/channel/UCWJPI7TW6j_aPxpYLWAij9g/featured' target='_blank' rel='noreferrer'>Youtube Channel</a>)
+                        </p>
                     </li>
                 </ul>
             </div>

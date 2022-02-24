@@ -13,7 +13,7 @@ function Cards() {
                             src={require('../images/revival-of-ultimate.png')}
                             text='My run at Revival of Ultimate! Look at my biggest tournament run so far!'
                             label='Smash Ultimate'
-                            path='/services'
+                            path='/ssbucareer'
                         />
                         <CardItem
                             src={require('../images/twitch.jpg')}
@@ -26,7 +26,7 @@ function Cards() {
                         <CardItem
                             src={require('../images/bowser.jpg')}
                             text='Shoutout to the rest of the Bowser Community! Here are some players that helped me out a lot!'
-                            label='Smash Ultimate'
+                            label='Shoutouts'
                             path='/shoutouts'
                         />
                         <CardItem
@@ -38,7 +38,7 @@ function Cards() {
                         <CardItem
                             src={require('../images/bowser-2.jpg')}
                             text="Here is my Bowser guide, where I break down Bowser's moveset and gameplan!"
-                            label='Smash Ultimate'
+                            label='Bowser Guide'
                             path='/bowser-guide'
                         />
                     </ul>
