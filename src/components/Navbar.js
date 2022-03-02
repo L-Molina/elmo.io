@@ -50,39 +50,39 @@ function Navbar() {
 								className='nav-links' 
 								onClick={closeMobileMenu}
 							>
-								YouTube
+								Social Media
 							</Link>
 						</li>
 						<li className='nav-item'>
 							<Link 
-								to='/socialmedia' 
+								to='/shoutouts' 
 								className='nav-links' 
 								onClick={closeMobileMenu}
 							>
-								Twitter
+								Shoutouts
 							</Link>
 						</li>
 						<li className='nav-item'>
 							<Link 
-								to='/socialmedia' 
+								to='/ssbucareer' 
 								className='nav-links' 
 								onClick={closeMobileMenu}
 							>
-								Twitch
+								Carreer
 							</Link>
 						</li>
 						<li className='nav-item'>
 							<Link 
-								to='/sign-up' 
+								to='/description' 
 								className='nav-links-mobile' 
 								onClick={closeMobileMenu}
 							>
-								My Description
+								Who I am!
 							</Link>
 						</li>
 					</ul>
 					{button && <Button ButtonStyle='btn--outline'>
-						DESCRIPTION
+						WHO I AM
 					</Button>}
 				</div>
 			</nav>

@@ -7,7 +7,7 @@
 
 .home,
 .description,
-.ssbucareer 
+.ssbucareer,
 .socialmedia,
 .shoutouts,
 .bowser-guide {
@@ -18,28 +18,24 @@
 }
 
 .ssbucareer {
-  background-image: url('./images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  background-color: #e0c4c4;
+  color: #290303;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .description {
-  background-image: url('./images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  background-color: #e0c4c4;
+  color: #290303;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .bowser-guide {
   background-color: #e0c4c4;
   color: #290303;
   font-size: 3rem;
-  text-align: center;
+  text-align: justify;
 }
 
 .socialmedia {
@@ -55,11 +51,19 @@
   font-size: 3rem;
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+}
+
 .title {
-  font-size: 60px;
+  font-size: 70px;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 img {
@@ -69,17 +73,17 @@ img {
 
 .body {
   font-size: 25px;
-  text-align: justify;
-  margin-bottom: 50px;
-  width: 80%;
+  text-align: left;
+  padding: 60px;
+  max-width: 60%;
 }
 
 .list {
-  margin-top: 15px;
+  padding-top: 15px;
 }
 
 .element {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 1800px) {
@@ -97,15 +101,18 @@ img {
     height: auto;
     font-size: 2rem;
   }
+
   .title {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .body {
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
+    max-width: 60%;
   }
+
   img {
     max-width: 80%;
     height: auto;
@@ -131,25 +138,25 @@ img {
 
   .title {
     text-align: center;
-    font-size: 38px;
+    font-size: 45px;
   }
 
   .body {
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
   }
   
   img {
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
   }
 
   .list {
-    margin-top: 15px;
+    padding-top: 15px;
   }
   
   .element {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -171,12 +178,13 @@ img {
 
   .title {
     text-align: center;
-    font-size: 36px;
+    font-size: 42px;
   }
 
   .body {
     font-size: 18px;
     text-align: left;
+    max-width: 80%;
   }
 
   
@@ -186,11 +194,11 @@ img {
   }
 
   .list {
-    margin-top: 15px;
+    padding-top: 15px;
   }
   
   .element {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -212,12 +220,13 @@ img {
 
   .title {
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
   }
 
   .body {
     font-size: 18px;
     text-align: left;
+    max-width: 90%;
   }
   
   img {
@@ -226,11 +235,11 @@ img {
   }
 
   .list {
-    margin-top: 15px;
+    padding-top: 15px;
   }
   
   .element {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
   }
 }
 

@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import BowserGuide from './components/pages/BowserGuide';
 import SSBUCareer from './components/pages/SSBUCareer';
 import Description from './components/pages/Description';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/shoutouts' element={<Shoutouts />} />
           <Route path='/bowser-guide' element={<BowserGuide />} />
         </Routes>
+        <ScrollToTop />
         <Footer />
       </Router>
     </>    

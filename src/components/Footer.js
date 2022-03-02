@@ -19,16 +19,9 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Me</h2>
-            <Link to='/sign-up'>Description</Link>
-            <Link to='/'>My Career</Link>
+            <Link to='/description'>Description</Link>
+            <Link to='/ssbucareer'>My Career</Link>
             <Link to='/shoutouts'>Shoutouts</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Competitive Journey</h2>
-            <Link to='/'>Smash Ultimate</Link>
-            <Link to='/'>SF3 3rd Strike</Link>
-            <Link to='/'>USF4 Omega Mode</Link>
-            <Link to='/'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>

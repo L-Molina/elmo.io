@@ -8,7 +8,6 @@ export default function BowserGuide() {
                 <h1>BOWSER GUIDE</h1>
                 <img src={require("../../images/bowser-alts.PNG")} alt="" />
                 <h5>Welcome to the Dragon's Lair!</h5>
-                
             </div>
             <div className='body'>
             <p>Written by: Elmo</p>
@@ -19,22 +18,22 @@ export default function BowserGuide() {
             <h3>This guide will be divided into the following sections:</h3>
             <ul className='list'>
                 <li className='element'>
-                    General overview, in my perspective
+                    <a href="#bowser_guide_overview">General overview, in my perspective</a>
                 </li>
-                <li className='element'>
+                <li className='element' >
                     Individual Moves:
                     <ul className='list'>
-                       <li className='element'>Grounded Normals</li>
-                       <li className='element'>Aerial Attacks</li>
-                       <li className='element'>Special Moves</li>
-                       <li className='element'>Throws</li>
+                       <li className='element'><a href="#bowser_guide_grounded_normals">Grounded Normals</a></li>
+                       <li className='element'><a href="#bowser_guide_aerial_attacks">Aerial Attacks</a></li>
+                       <li className='element'><a href="#bowser_guide_special_moves">Special Moves</a></li>
+                       <li className='element'><a href="#bowser_guide_throws">Throws</a></li>
                     </ul>
                 </li>
                 <li className='element'>
-                    His Neutral
+                    <a href="#bowser_guide_neutral">His Neutral</a>
                 </li>
                 <li className='element'>
-                    His Advantage:
+                    <a href="#bowser_guide_advantage_state">His Advantage:</a> 
                     <ul className='list'>
                        <li className='element'>Juggling</li>
                        <li className='element'>Edgeguarding</li>
@@ -61,7 +60,7 @@ export default function BowserGuide() {
             </ul>
             </div>
             <div className='title'>
-                <h3>General overview: My perspective</h3>
+                <h3 id='bowser_guide_overview'>General overview: My perspective</h3>
             </div>
             <div className='body'>
                 <p>Let me ask you a question: did you ever think about what would happen if we combined a heavy hitting Grappler with an aggressive Rushdown character? 
@@ -83,7 +82,7 @@ export default function BowserGuide() {
                 <p>Ok, we talked about enough general things, lets get into the real details. Starting from the ground, literally.</p>
             </div>
             <div className='title'>
-                <h4>Grounded Normals</h4>
+                <h4 id='bowser_guide_grounded_normals'>Grounded Normals</h4>
             </div>
             <div className="body">
                 <ul className="list">
@@ -174,7 +173,7 @@ export default function BowserGuide() {
                 <p>Alright, now that we covered Bowser's grounded options, let's jump right into the next section, which is...</p>
             </div>
             <div className="title">
-                <h4>Aerial Attacks</h4>
+                <h4 id='bowser_guide_aerial_attacks'>Aerial Attacks</h4>
             </div>
             <div className="body">
                 <ul className="list">
@@ -254,7 +253,7 @@ export default function BowserGuide() {
                 <p>Well, that sure was a look at Bowser's aerials. Now lets deep dive into the most important part of his whole kit, his...</p>
             </div>
             <div className="title">
-                <h4>Special Moves</h4>
+                <h4 id='bowser_guide_special_moves'>Special Moves</h4>
             </div>
             <div className="body">
                 <ul className="list">
@@ -330,7 +329,7 @@ export default function BowserGuide() {
                 <p>Time to deepdive into the last few moves in Bowser's moveset, and these are pretty interesting.</p>
             </div>
             <div className="title">
-                <h4>Throws</h4>
+                <h4 id='bowser_guide_throws'>Throws</h4>
             </div>
             <div className="body">
                 <ul className="list">
@@ -368,6 +367,28 @@ export default function BowserGuide() {
                         </p>
                     </li>
                 </ul>
+                <p>Alright, we got the individual moves out of the way. Let's stop with all this frame data nonsense and talk about being in a match itself with the character, step by step. The first step 
+                is the most important of them all:</p>
+            </div>
+            <div className="title">
+                <h3 id='bowser_guide_neutral'>Neutral</h3>
+            </div>
+            <div className="body">
+                <p>As we already discussed, Bowser's safest and most rewarding options, which in turn define the way he should be playing the game, are on the ground. Namely,
+                his long range grab and tilt attacks, his Fire Breath for ground control, and Flying Slam to counter shields, all of which are mostly hard to react to and punish.
+                <br />However, focusing TOO much on controlling the ground will eventually make Bowser vulneravle to jumps, so he was given a good varety of antiairs and ways to stuff 
+                the opponents approach in order to compensate for this: his long range fair, uptilt and upsmash are extremely powerful when catching jumps, so they will mostly condition
+                an opponent to be on their toes and at least consider shielding a possible incoming attack. This is futile, of course, for reasons you might have already guessed.
+                <br />Always consider, however, to try and be as safe and non-commital as possible with your antiairs, as it isn't difficult to whiff punish someone who is recklessly 
+                pushing these buttons.
+                <br />So the takeaways from this part are: be precise with playing either on the ground or in the air, be ready to punish people for feeling too safe to do anything,
+                and don't be reckless to hit your opponent for no reason. The eventual opening will come in every matchup, with enough patience and one good read. This one opening is
+                often all you need to dominate a whole stock or even the entire game, but it does hinge on you using the information that you have gathered on your specific opponent.
+                </p>
+                <p>Neutral isn't the only stage in the game, however. Having brought up combos and followups beforehand, let's talk about what happens when you get that opening:</p>
+            </div>
+            <div className="title">
+                <h3 id='bowser_guide_advantage_state'>Advantage State</h3>
             </div>
         </div>
     );

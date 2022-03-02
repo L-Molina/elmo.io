@@ -9,14 +9,14 @@ export default function Shoutouts () {
             </div>
             <div className='body'>
                 <p>Here are some of the Bowser players I would like to shoutout,
-                either because i consider them friends,
-                or because they inspired me/helped me in my Smash career.
+                either because I consider them friends,
+                or because they inspired me/helped me throughout my Smash career.
                 Check them out!</p>
                 <ul className='list'>
                     <li className='element'>
                         <h3>Boira (Twitter: <a href="https://twitter.com/El_Boira" target='_blank' rel='noreferrer'>@El_Boira</a>)</h3>
                         <img src={require('../../images/boira.jpg')} alt=''/>
-                        <p>The single best Bowser in Argentina is first on the list.
+                        <p>The single best Bowser in Argentina.
                         Not only is he a really strong player with some great results behind him,
                         but he also cares for the community a lot.
                         I heavily appreciate him for that (haha, see what I did there?)</p>
@@ -33,14 +33,14 @@ export default function Shoutouts () {
                         <h3>Polazo (Twitter: <a href="https://twitter.com/polazo6942" target='_blank' rel='noreferrer'>@polazo6942</a>)</h3>
                         <img src={require("../../images/polazo.jpg" )} alt='' />
                         <p>Here we have another Chilean Bowser player. 
-                        or this one I need to provide some context:
-                        o last year, there was an Online South American Character Crew Battle Tournament,
-                        here players from all of SA would get a chance to represent their main
-                        n an online Crew Batle Tournament, and naturally, I tried to get in for Bowser.
-                        owever, to do this, I would have to prove myself in a First To 10 game set,
-                        gainst none other than Polazo. After we finished our set,
-                        e was kind enough to give me quite a bit of advise about 
-                        hat I could be doing better. I still appreciate him for that.</p>
+                        For this one I need to provide some context:
+                        So last year, there was an Online South American Character Crew Battle Tournament,
+                        there players from all of SA would get a chance to represent their main
+                        in an online Crew Batle Tournament, and naturally, I tried to get in for Bowser.
+                        however, to do this, I would have to prove myself in a First To 10 game set,
+                        against none other than Polazo. After we finished our set,
+                        he was kind enough to give me quite a bit of advise about 
+                        what I could be doing better. I still appreciate him for that.</p>
                     </li>
                     <li className='element'>
                         <h3>LeoN (Twitter: <a href="https://twitter.com/DLeon420" target='_blank' rel='noreferrer'>@DLeon420</a>)</h3>
@@ -50,7 +50,7 @@ export default function Shoutouts () {
                         hich is to be expected. His gameplay opened my eyes to what this Character 
                         ould truly do, and I strive to reach not only such a level of proficiency,
                         ut also accomplish things half as impressive as he did.
-                        ruly a Bowser icon.</p>
+                        Truly a Bowser icon.</p>
                     </li>
                 </ul>
                 <p>Written by: Elmo</p>
