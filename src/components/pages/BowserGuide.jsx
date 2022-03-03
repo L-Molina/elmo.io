@@ -54,13 +54,13 @@ export default function BowserGuide() {
                         <li className="element">Tough Guy</li>
                     </ul>
                 </li>
-                <li className="element">
+                <li className="element" id='bowser_guide_overview'>
                     Conclusion
                 </li>
             </ul>
             </div>
             <div className='title'>
-                <h3 id='bowser_guide_overview'>General overview: My perspective</h3>
+                <h3>General overview: My perspective</h3>
             </div>
             <div className='body'>
                 <p>Let me ask you a question: did you ever think about what would happen if we combined a heavy hitting Grappler with an aggressive Rushdown character? 
@@ -79,10 +79,10 @@ export default function BowserGuide() {
                 His aerial attacks are nearly useless for shield pressure, his fastest option at all is still really slow when compared to most of the cast, 
                 and his aerial drift can be dissapointing, especially in offstage situations.</p>
                 <br />
-                <p>Ok, we talked about enough general things, lets get into the real details. Starting from the ground, literally.</p>
+                <p id='bowser_guide_grounded_normals'>Ok, we talked about enough general things, lets get into the real details. Starting from the ground, literally.</p>
             </div>
             <div className='title'>
-                <h4 id='bowser_guide_grounded_normals'>Grounded Normals</h4>
+                <h4>Grounded Normals</h4>
             </div>
             <div className="body">
                 <ul className="list">
@@ -170,10 +170,10 @@ export default function BowserGuide() {
                         <br />All of these are pretty niche situations, albeit this attack definitely does its job in these better than any other move in his kit, so it has it's place.</p>
                     </li>
                 </ul>
-                <p>Alright, now that we covered Bowser's grounded options, let's jump right into the next section, which is...</p>
+                <p id='bowser_guide_aerial_attacks'>Alright, now that we covered Bowser's grounded options, let's jump right into the next section, which is...</p>
             </div>
             <div className="title">
-                <h4 id='bowser_guide_aerial_attacks'>Aerial Attacks</h4>
+                <h4>Aerial Attacks</h4>
             </div>
             <div className="body">
                 <ul className="list">
@@ -250,10 +250,10 @@ export default function BowserGuide() {
                         </p>
                     </li>
                 </ul>
-                <p>Well, that sure was a look at Bowser's aerials. Now lets deep dive into the most important part of his whole kit, his...</p>
+                <p id='bowser_guide_special_moves'>Well, that sure was a look at Bowser's aerials. Now lets deep dive into the most important part of his whole kit, his...</p>
             </div>
             <div className="title">
-                <h4 id='bowser_guide_special_moves'>Special Moves</h4>
+                <h4>Special Moves</h4>
             </div>
             <div className="body">
                 <ul className="list">
@@ -326,10 +326,10 @@ export default function BowserGuide() {
                         </p>
                     </li>
                 </ul>
-                <p>Time to deepdive into the last few moves in Bowser's moveset, and these are pretty interesting.</p>
+                <p id='bowser_guide_throws'>Time to deepdive into the last few moves in Bowser's moveset, and these are pretty interesting.</p>
             </div>
             <div className="title">
-                <h4 id='bowser_guide_throws'>Throws</h4>
+                <h4>Throws</h4>
             </div>
             <div className="body">
                 <ul className="list">
@@ -367,11 +367,11 @@ export default function BowserGuide() {
                         </p>
                     </li>
                 </ul>
-                <p>Alright, we got the individual moves out of the way. Let's stop with all this frame data nonsense and talk about being in a match itself with the character, step by step. The first step 
+                <p id='bowser_guide_neutral'>Alright, we got the individual moves out of the way. Let's stop with all this frame data nonsense and talk about being in a match itself with the character, step by step. The first step 
                 is the most important of them all:</p>
             </div>
             <div className="title">
-                <h3 id='bowser_guide_neutral'>Neutral</h3>
+                <h3>Neutral</h3>
             </div>
             <div className="body">
                 <p>As we already discussed, Bowser's safest and most rewarding options, which in turn define the way he should be playing the game, are on the ground. Namely,
@@ -385,10 +385,37 @@ export default function BowserGuide() {
                 and don't be reckless to hit your opponent for no reason. The eventual opening will come in every matchup, with enough patience and one good read. This one opening is
                 often all you need to dominate a whole stock or even the entire game, but it does hinge on you using the information that you have gathered on your specific opponent.
                 </p>
-                <p>Neutral isn't the only stage in the game, however. Having brought up combos and followups beforehand, let's talk about what happens when you get that opening:</p>
+                <p id='bowser_guide_advantage_state'>Neutral isn't the only stage in the game, however. Having brought up combos and followups beforehand, let's talk about what happens when you get that opening:</p>
             </div>
             <div className="title">
-                <h3 id='bowser_guide_advantage_state'>Advantage State</h3>
+                <h3>Advantage State</h3>
+            </div>
+            <div className="body">
+                <p>After a combo, or even a single substantial hit, we start talking about advantage state, where the opponent has very limited options compared to you and, thus, is 
+                important that you know how to capitalize off of it.</p>
+                <br />
+                <h4 className='title'>Juggles</h4>
+                <p>Juggles basically involve sending your opponent upwards in an attempt to keep them there by covering the options they might use to
+                get back down.
+                <br />Usually this translates to a series of different options: </p>
+                <ul className="list">
+                    <li className="element">
+                        <p>Double jump out: Against most characters this is an opportunity to get
+                        them offstage if you manage to hit them again.</p>
+                    </li>
+                    <li className="element">
+                        <p>Land aggressively with attacks: Honestly it mostly just depends on the attack they use, as if they do a divekick
+                        type of attack to get back down, it's pretty easy to just shield and punish, and if they come down with something safe but reactable, like R.O.Bs like to do with their
+                        Nair, you can get up close, parry and get a punish; if they have something like a B-reverse special move, it also becomes more demanding since you have to keep that in 
+                        mind at all times as well.</p>
+                    </li>
+                    <li className="element">
+                        <p>Try to come back with fastfall + airdodge: specific, but is often possible to punish if you know where they're going
+                        to land, which, since they dont have much drift after neutral airdodge, becomes easier; directional airdodge is a bit tricky too, as it's an option that can help them
+                        go wherever they want to mixup their landing, but is still not very useful because of having only one airdodge as well as the amount of lag you will have while airborne,
+                        so it's still possible to deal with.</p>
+                    </li>
+                </ul>
             </div>
         </div>
     );
