@@ -36,8 +36,13 @@ export default function BowserGuide() {
                     <a href="#bowser_guide_advantage_state">His Advantage:</a> 
                     <ul className='list'>
                        <li className='element'>Juggling</li>
-                       <li className='element'>Edgeguarding</li>
-                       <li className='element'>Ledgetrapping</li>
+                       <li className="element">
+                           <a href="#bowser_guide_offstage_game">Offstage Game</a>
+                        </li>
+                       <ul className="list">
+                            <li className='element'>Edgeguarding</li>
+                            <li className='element'>Ledgetrapping</li>
+                       </ul>
                     </ul>
                 </li>
                 <li className='element'>
@@ -414,6 +419,41 @@ export default function BowserGuide() {
                         to land, which, since they dont have much drift after neutral airdodge, becomes easier; directional airdodge is a bit tricky too, as it's an option that can help them
                         go wherever they want to mixup their landing, but is still not very useful because of having only one airdodge as well as the amount of lag you will have while airborne,
                         so it's still possible to deal with.</p>
+                    </li>
+                </ul>
+                <p>Now, imagine that you juggled your opponent for a decent amount of damage and you now want to put them in a position where you can kill them effectively.</p>
+                <p id='bowser_guide_offstage_game'><br />Well, in that case we need to look at a certain fundamental concept of Smash.</p>
+            </div>
+            <div className="title">
+                <h3>Offstage Game</h3>
+            </div>
+            <div className="body">
+                <p>Now then, the offstage game for Bowser will be divided into two parts, for simplicity's sake: Edgeguarding and Ledgetrapping.</p>
+                <ul className="list">
+                    <li className="element">
+                        <p>First we got the Edgeguarding phase, where both players are off the level and one will try to hit the other while they are recovering, 
+                        in an attempt to secure a kill. 
+                        <br />For Bowser, edgeguarding has one key word: Forward Air. Yes, that move, do you remember it? Cause now it's the time to use it.
+                        <br />Having such tremendous coverage, doing a lot of damage, and having very high killpower are the three main reasons to use Fair if you 
+                        ever want to go offstage.
+                        <br />To catch people off guard, however, or if you wanna be in a Yeet Smash compilation, we have Bowser Bomb: it can be used to ledge trump 
+                        opponents who want to stay at the ledge for a while, which then can be followed with a Bair for a kill.</p>
+                    </li>
+                    <li className="element">
+                        <p>Now for the Ledgetrapping phase on the other hand, we got a lot of options. First, staying onstage to attempt to catch the opponent's
+                        2-frame, which is the 2 frames of vulnerability upon grabbing the ledge, tends to be very easy for Bowser in most matchups, thanks to 
+                        Forward Tilt (angled downwards), Down Tilt and Fire Breath, all three hitting below the ledge and having relatively low cooldown, to ensure
+                        that you aren't too vulnerable if you miss them.
+                        <br />If you do miss them, however, and find your opponent on the ledge, these two options are still very useful to cover multiple options:
+                        since Ftilt catches 2-frames it can also hit the opponent from stalling at the ledge, as well as it can be used to hard punish neutral getup
+                        on reaction bacause of it's 5 active frames. Fire Breath is no slouch either: opponents will most likely ledge jump to get around it, as if
+                        spaced properly it will catch every other getup option: neutral getup, getup attack (if out of range), double jumps back in and rolls.
+                        <br />After that, his Fair is useful one again to catch low ranged getup attacks, rolls, ledge jumps, double jumps back in and potentially
+                        neutral getup, so pretty much every single option that isn't ledge hang; his upsmash is useful as a callout against ledge rolls to kill really
+                        early (better than fsmash if you use it behind you); side B is fantastic as it catches anyone trying to shield Bowser's attacks at the corner 
+                        as well as anyone trying to escape to a nearby platform; Uptilt covers everything (ok, I'm kidding... Or am I?) except neutral getups, ledge
+                        attacks and most ledge hangs.
+                        </p>
                     </li>
                 </ul>
             </div>
