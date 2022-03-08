@@ -46,7 +46,7 @@ export default function BowserGuide() {
                     </ul>
                 </li>
                 <li className='element'>
-                    His Disadvantage
+                    <a href="#bowser_guide_disadvantage_state">His Disadvantage</a>
                     <ul className="list">
                         <li className="element">Escaping Juggles</li>
                         <li className="element">Recovery</li>
@@ -54,13 +54,13 @@ export default function BowserGuide() {
                     </ul>
                 </li>
                 <li className="element">
-                    Other Notes
+                    <a href="#bowser_guide_other">Other Notes</a>
                     <ul className="list">
                         <li className="element">Tough Guy</li>
                     </ul>
                 </li>
                 <li className="element" id='bowser_guide_overview'>
-                    Conclusion
+                    <a href="#bowser_guide_conclusion">Conclusion</a>
                 </li>
             </ul>
             </div>
@@ -440,22 +440,128 @@ export default function BowserGuide() {
                         opponents who want to stay at the ledge for a while, which then can be followed with a Bair for a kill.</p>
                     </li>
                     <li className="element">
-                        <p>Now for the Ledgetrapping phase on the other hand, we got a lot of options. First, staying onstage to attempt to catch the opponent's
-                        2-frame, which is the 2 frames of vulnerability upon grabbing the ledge, tends to be very easy for Bowser in most matchups, thanks to 
-                        Forward Tilt (angled downwards), Down Tilt and Fire Breath, all three hitting below the ledge and having relatively low cooldown, to ensure
-                        that you aren't too vulnerable if you miss them.
-                        <br />If you do miss them, however, and find your opponent on the ledge, these two options are still very useful to cover multiple options:
-                        since Ftilt catches 2-frames it can also hit the opponent from stalling at the ledge, as well as it can be used to hard punish neutral getup
-                        on reaction bacause of it's 5 active frames. Fire Breath is no slouch either: opponents will most likely ledge jump to get around it, as if
-                        spaced properly it will catch every other getup option: neutral getup, getup attack (if out of range), double jumps back in and rolls.
-                        <br />After that, his Fair is useful one again to catch low ranged getup attacks, rolls, ledge jumps, double jumps back in and potentially
-                        neutral getup, so pretty much every single option that isn't ledge hang; his upsmash is useful as a callout against ledge rolls to kill really
-                        early (better than fsmash if you use it behind you); side B is fantastic as it catches anyone trying to shield Bowser's attacks at the corner 
-                        as well as anyone trying to escape to a nearby platform; Uptilt covers everything (ok, I'm kidding... Or am I?) except neutral getups, ledge
-                        attacks and most ledge hangs.
-                        </p>
+                        Now for the Ledgetrapping phase on the other hand, we got a lot of options.
+                        <ul className="list">
+                            <li className="element">
+                                First, staying onstage to attempt to catch the opponent's 2-frame, which is the 2 frames of vulnerability upon grabbing the
+                                ledge, tends to be very easy for Bowser in most matchups, thanks to Forward Tilt (angled downwards), Down Tilt and Fire Breath,
+                                all three hitting below the ledge and having relatively low cooldown, to ensure that you aren't too vulnerable if you miss them.
+                            </li> 
+                            <li className="element">
+                                If you do miss them, however, and find your opponent on the ledge, these two options are still very useful to cover multiple options:
+                                since Ftilt catches 2-frames it can also hit the opponent from stalling at the ledge, as well as it can be used to hard punish neutral getup
+                                on reaction bacause of it's 5 active frames.
+                            </li>
+                            <li className="element">
+                                Fire Breath is no slouch either: opponents will most likely ledge jump to get around it, as if
+                                spaced properly it will catch every other getup option: neutral getup, getup attack (if out of range), double jumps back in and rolls.
+                            </li>  
+                            <li className="element">
+                                After that, his Fair is useful once again to catch low ranged getup attacks, rolls, ledge jumps, double jumps back in and potentially
+                                neutral getup, so pretty much every single option that isn't ledge hang.
+                            </li>
+                            <li className="element">
+                                His upsmash is useful as a callout against ledge rolls to kill really early (better than fsmash if you use it behind you).
+                            </li>
+                            <li className="element">
+                                Side B is fantastic as it catches anyone trying to shield Bowser's attacks at the corner as well as anyone trying to escape to a nearby platform.
+                            </li>
+                            <li className="element">
+                                Uptilt covers everything (ok, I'm kidding... Or am I?) except neutral getups, ledge attacks and most ledge hangs.
+                            </li>
+                        </ul>
                     </li>
                 </ul>
+                <p>Now, we've been talking about what happens when you get the hit, but...
+                <br />What about when your OPPONENT gets a hit?</p>
+                <p id='bowser_guide_disadvantage_state'>
+                <br />Well, that's the topic coming up next... 
+                </p>
+            </div>
+            <div className="title">
+                <h4>Disadvantage State</h4>
+            </div>
+            <div className="body">
+                <p>When you get put into disadvantage state, your main goal is to return to neutral whenever you can, having limited options to do so,
+                which can all be dealt with by your opponent, depending on the character. It may or may not come as a surprise to hear that Bowser
+                isn't very well prepared to be in disadvantage, though it's only fair to cover the options he does have, right?
+                </p>
+                <h4 className="title">Escaping Juggles</h4>
+                <p>It's not a controversial opinion to say that Bowser's worst position is right avobe an opponent trying to juggle him. However, he does
+                have a few options worth going over.
+                </p>
+                <ul className="list">
+                    <li className="element">
+                        Landing aggresively (using mainly Down Air but also potentially Bowser Bomb): This is mostly useful to switch up the pacing of the match
+                        in your favor, as well as getting an opponent off of you. This primarily forces shields which can be punished with either Down B for a
+                        shieldbreak, or this next option...
+                    </li>
+                    <li className="element">
+                        Land with a Command Grab (Flying Slam): Being Frame 6 and beating shields makes this one of Bowser's best tools to land, as it nets you huge
+                        damage and forces them to get pout of the way to avoid both Dair and this.
+                        <br />Which segments nicely into our last option:
+                    </li>
+                    <li className="element">
+                        Land passively (do nothing or maybe cover yourself with an aerial/airdodge): The slowest and most simplistic way to land, as it is 
+                        only really useful if the opponent is fearing your other options and tries to get out of the way, since if you dont do anything 
+                        commital you get to land for free and reset neutral.
+                    </li>
+                </ul>
+                <h4 className="title">How to Recover</h4>
+                <p>Bowser's recovery isn't the greatest, however just by using his Up B you have a decent amount of mixup potential, which we will go over:</p>
+                <ul className="list">
+                    <li className="element">
+                        The Drift: As we discussed when talking about his specials, Bowser can vary between three different distances for his Up B. These allow
+                        for various mixups such as: a recovery from very low, a delay on your recovery to fake out landing onstage, recover just avobe and slightly away from the ledge
+                        and drift towards it, among many others that I dont even know exist. 
+                    </li>
+                    <li className="element">
+                        The Hitbox: Bowser's aerial Up B has a hitbox, which is good and bad. On one hand, it's very susceptible to getting countered or traded with since it has very
+                        little disjoint and small damage unless it connects fully. In return, however, it can also be used as a potential edgeguard mixup to make someone trying to recover
+                        have to guess between having to tech and grab the ledge or fake it and make them airdodge, likely killing them, all by simply recovering towards the ledge and holding
+                        down on the control stick to avoid grabbing the ledge for as long as you want, as long as you dont fall below it (you won't be able to grab it at that point). It can
+                        also be very useful to recover high and harass someone trying to 2-frame you with the multihits, although it's very unsafe if you dont hit anything.
+                    </li>
+                </ul>
+                <h4 className="title">Getting off the Ledge</h4>
+                <p>Bowser's Ledge options aren't the greatest or anything, but its definitely much better than getting juggled forever or spiked offstage, isn't it?</p>
+                <ul className="list">
+                    <li className="element">
+                        Normal Ledge options: When it comes to universal options, there are five in total: regular getup, ledge jump, getup attack, ledge roll and ledge stall.
+                        <br />One by one, Bowser's regular getup is below average due to his large hurtbox, his ledge jump can be combined with a Fair or Nair to cover yourself
+                        on the way down, his getup attack is a bit slow but reaches farther than every single other getup attack in the game, his ledge roll has poor distance
+                        and invulnerability so it's not great, and his ledge stall is not that great because his hand is exposed when he is hanging so it's easy to hit him.
+                    </li>
+                    <li className="element">
+                        Character-specific Ledge options: Some of you would've noticed that I skipped a ledge option: dropping the ledge and double jumping back in, or just double
+                        jump back in for short. You can combine it with various options, which is why I skipped it: for example, Fair can be used to punish someone for not shielding
+                        or doing whatever at the edge; Nair can be used to surprise someone right at the edge and potentially start a combo; finally Flying Slam command grab is 
+                        very useful for blowing up blocking opponents. You dont have any protection during any of these, though, so expect to eat a punish if you miss.
+                    </li>
+                </ul>
+                <p id='bowser_guide_other'>Finally, let's wrap it up with some other things to note that don't fall into any of the previous categories.</p>
+            </div>
+            <div className="title">
+                <h4>Other Notes</h4>
+            </div>
+            <div className="body">
+                <p>Bowser isn't really a techchase-focused character. Your best options to set up techchases are Fair and Ftilt at lower percents.
+                <br />If they miss their tech, go for a jablock with Jab1 into a Dsmash (watch out however, because it can whiff on some characters depending on their hurtbox)
+                <br />If they tech in place, you can keep pressing Jab to beat it, and even if they shield it and try to punish you can shield or spotdodge.
+                <br />Finally, if they techroll you can chase them down, as you can grab them or dash attack to cover roll out and dash back and make reads against rolls in 
+                with either grab or upsmash depending on percent.
+                </p>
+                <h4 className="title">Unique Mechanic: Tough Guy</h4>
+                <p>Tough Guy is a mechanic shared by both Bowser and newcomer KAZUYA MISHIMA, which allows them to eat certain attacks automatically and retaliate, to give them
+                that feeling of tanks. The moves that they can armor must not exceed the threshold of 19 units of knockback for Bowser (14 for Kazuya). If you know about the 
+                knockback formula, you might already guess that this isn't a very long list of moves: it mostly limits to rapid jabs like Fox, Falco, Rosalna, The Belmonts, among others;
+                some multihit attacks like Ivysaur's Nair and Ftilt can also be armored.
+                <br />Worth pointing out two important things: first, crouching will slightly add additional resistance to knockback (this is called "crouch cancelling"), which can help
+                you to armor through a few more attacks. Lastly, Tough Guy wears down as the character gains percent, so this mechanic is much more impactful early on when Bowser has taken
+                little damage.
+                </p>
+                <br />
+                <p id='bowser_guide_conclusion'>Phew. that was a lot of things to cover. Let's end things up already.</p>
             </div>
         </div>
     );
