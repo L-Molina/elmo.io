@@ -563,6 +563,14 @@ export default function BowserGuide() {
                 <br />
                 <p id='bowser_guide_conclusion'>Phew. that was a lot of things to cover. Let's end things up already.</p>
             </div>
+            <div className="title">
+                <h4>Conclusion</h4>
+            </div>
+            <div className="body">
+                <p>Bowser is the character I stuck with since I started playing competitive Ultimate, and have acheived notable tournament wins on strong players with the turtle.
+                I'm glad that I can show what the character has to offer, and hopefully you can say the same about reading it!
+                </p>
+            </div>
         </div>
     );
 }
