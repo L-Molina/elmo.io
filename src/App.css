@@ -86,6 +86,13 @@ img {
   padding-bottom: 30px;
 }
 
+.special {
+  border-radius: 50%;
+  box-shadow: 0 0 15px #290303;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1800px) {
   .socialmedia {
     height: auto;

@@ -17,7 +17,7 @@ function Footer() {
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>About Me</h2>
             <Link to='/description'>Description</Link>
             <Link to='/ssbucareer'>My Career</Link>
@@ -25,7 +25,7 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>My Social Media</h2>
             <Link to='/socialmedia'>Twitch</Link>
             <Link to='/socialmedia'>Youtube</Link>
@@ -33,28 +33,28 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               E-L-M-O
             </Link>
           </div>
-          <small class='website-rights'>E-L-M-O © 2022</small>
-          <div class='social-icons'>
+          <small className='website-rights'>E-L-M-O © 2022</small>
+          <div className='social-icons'>
             <Link
-              class='social-icon-link'
+              className='social-icon-link'
               to='/socialmedia'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i className='fab fa-youtube' />
             </Link>
             <Link
-              class='social-icon-link'
+              className='social-icon-link'
               to='/socialmedia'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter' />
+              <i className='fab fa-twitter' />
             </Link>
             
           </div>

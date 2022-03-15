@@ -6,7 +6,7 @@ export default function BowserGuide() {
         <div className='bowser-guide'>
             <div className='title'>
                 <h1>BOWSER GUIDE</h1>
-                <img src={require("../../images/bowser-alts.PNG")} alt="" />
+                <img src={require("../../images/bowser-alts.PNG")} alt="Bowser's alts" />
                 <h5>Welcome to the Dragon's Lair!</h5>
             </div>
             <div className='body'>
@@ -93,7 +93,7 @@ export default function BowserGuide() {
                 <ul className="list">
                     <li className="element">
                         <h4>Jab:</h4> 
-                        <img src={require("../../images/jab.PNG")} alt="" />
+                        <img src={require("../../images/jab.PNG")} alt="Jab 1 and 2" />
                         <p>Starting off, we have a very strange jab compared to the rest of the cast. Despite its Frame 7 startup, its good range,
                         combined with its surprisingly low ending lag, make it pretty safe to just throw out against
                         most characters and... It's also a combo starter?
@@ -104,7 +104,7 @@ export default function BowserGuide() {
                     </li>
                     <li className="element">
                         <h4>Forward Tilt:</h4>
-                        <img src={require("../../images/ftilt.PNG")} alt="" />
+                        <img src={require("../../images/ftilt.PNG")} alt="Forward Tilt" />
                         <p>Oh, boy. This, in my opinion, is probably the best ftilt in the game. 
                         Fast startup, pretty safe on shield if you space it, 
                         a bit of a step back before the hitbox so it can whiff punish opponents, a bit of armor, a bit of intangibility which makes it effectively disjointed 
@@ -114,7 +114,7 @@ export default function BowserGuide() {
                     </li>
                     <li className="element">
                         <h4>Up Tilt:</h4>
-                        <img src={require("../../images/uptilt.PNG")} alt="" />
+                        <img src={require("../../images/uptilt.PNG")} alt="Up Tilt" />
                         <p>If you have played Smash Ultimate competitively for any amount of time, 
                         i'm willing to bet you know about Snake's Up Tilt, one of the best normals in the whole game. 
                         Bowser, if you can believe this, has basically an armored version of it.
@@ -126,21 +126,21 @@ export default function BowserGuide() {
                     </li>
                     <li className="element">
                         <h4>Down Tilt:</h4>
-                        <img src={require("../../images/dtilt.PNG")} alt="" />
+                        <img src={require("../../images/dtilt.PNG")} alt="Down Tilt" />
                         <p>Unfortunately, when it comes to this move, theres mostly no reason to use it 
                         over ftilt or fire breath on the ground or in 2 frame situations (we will talk about fire breath later). 
                         <br /> It does last for a decent amount of time, however, and it can kill at high percents, so its not useless.</p>
                     </li>
                     <li className="element">
                         <h4>Dash attack:</h4>
-                        <img src={require("../../images/da.PNG")} alt="" />
+                        <img src={require("../../images/da.PNG")} alt="Dash Attack" />
                         <p>This move is very straightforward but very useful: its your typical burst movement option 
                         used to catch landings or whiff punish opponents in situations where your other options dont quite reach. 
                         Simple, but effective. There is not much else to say.</p>
                     </li>
                     <li className="element">
                         <h4>Forward Smash</h4>
-                        <img src={require("../../images/fsmash.PNG")} alt="" />
+                        <img src={require("../../images/fsmash.PNG")} alt="Forward Smash" />
                         <p>The strength behind this classic dropkick is the main selling point. It kills at 
                         around 20 to 30 percent when fully charged! Absolutely insane. 
                         <br />To add up to the armor (which, by the way, is present all over Bowser's normals), there are invencibility frames 
@@ -151,7 +151,7 @@ export default function BowserGuide() {
                     </li>
                     <li className="element">
                         <h4>Up Smash</h4>
-                        <img src={require("../../images/upsmash.PNG")} alt="" />
+                        <img src={require("../../images/upsmash.PNG")} alt="Up Smash" />
                         <p>This attack is pretty interesting, because it in theory occupies a similar role to up tilt. However, both 
                         are useful in very different ground-to-air situations, which I will get into.
                         <br />For a start, Up smash is significantly stronger, but a bit laggier and shorter ranged, so it sacrifices coverage in return for stronger reward at lower percents.
@@ -164,7 +164,7 @@ export default function BowserGuide() {
                     </li>
                     <li className="element">
                         <h4>Down Smash</h4>
-                        <img src={require("../../images/dsmash.PNG")} alt="" />
+                        <img src={require("../../images/dsmash.PNG")} alt="Down Smash" />
                         <p>Here we have probably Bowser's second biggest upgrade from Smash 4. 
                         The change from the second Whirling Foretress to a bigger but laggier version of 
                         Wolf's dsmash was a pretty huge glowup to a move with several good purposes in his toolkit.
@@ -184,7 +184,7 @@ export default function BowserGuide() {
                 <ul className="list">
                     <li className="element">
                         <h4>Neutral Air</h4>
-                        <img src={require("../../images/nair.PNG")} alt="" />
+                        <img src={require("../../images/nair.PNG")} alt="Neutral Air" />
                         <p>Bowser's most deceptive attack in his entire kit, in my opinion. 
                         A lot of people use this move for shield pressure in neutral, which doesnt 
                         really work due to it being unsafe on shield. However, this attack is far 
@@ -213,7 +213,7 @@ export default function BowserGuide() {
                     </li>
                     <li className="element">
                         <h4>Forward Air</h4>
-                        <img src={require("../../images/fair.PNG")} alt="" />
+                        <img src={require("../../images/fair.PNG")} alt="Forward Air" />
                         <p>Fair is... absurd, but not for the reasons you might expect.
                         <br />For a start, this move has a similar problem to Nair, where it looks like a good shield pressure aerial, 
                         even tho its -9 on shield. It also doesnt have any intangibility on the arms, so if you try and land
@@ -230,7 +230,7 @@ export default function BowserGuide() {
                     </li>
                     <li className="element">
                         <h4>Back Air</h4>
-                        <img src={require("../../images/bair.PNG")} alt="" />
+                        <img src={require("../../images/bair.PNG")} alt="Back Air" />
                         <p>What a beast of an attack, dude! The frame 9, extremely powerful aerial dropkick is one of Bowser's most dangerous weapons.
                         <br />However, it is important to keep in mind the extreme amounts of landing lag that it has. Luckily, the exact same autocancel window
                         that Fair has works with this aerial as well, which makes it terrifying as a shorthop antiair at higher percents. It also makes it a deadly
@@ -239,13 +239,13 @@ export default function BowserGuide() {
                     </li>
                     <li className="element">
                         <h4>Up Air</h4>
-                        <img src={require("../../images/upair.PNG")} alt="" />
+                        <img src={require("../../images/upair.PNG")} alt="Up Air" />
                         <p>Nothing too special about this one, to be honest. It's a simple kill move/combo finisher after upthrow and nair extensions. 
                         It can also be used when landing to get Bowser's maximum damage routes. However, the hitbox is pretty narrow, so it isnt very useful in this context.</p>
                     </li>
                     <li className="element">
                         <h4>Down Air</h4>
-                        <img src={require("../../images/dair.PNG")} alt="" />
+                        <img src={require("../../images/dair.PNG")} alt="Down Air" />
                         <p>Your primary way to aggresively land from disadvantage, this move serves as a powerful mixup to switch up the pacing. 
                         <br />The spike of the early hit also makes it scary to punish opponents recovering predictably, 2 frame in some niche matchups, or 
                         punishing ledge jumps. It also has a very disjointed landing hit, to make spacing around it when juggling Bowser quite difficult, 
@@ -264,8 +264,8 @@ export default function BowserGuide() {
                 <ul className="list">
                     <li className="element">
                         <h4>Neutral B: Fire Breath</h4>
-                        <img src={require("../../images/firebreath.png")} alt="" /> <br />
-                        <img src={require("../../images/neutralb.PNG")} alt="" />
+                        <img className='special' src={require("../../images/firebreath.png")} alt="Fire Breath" /> <br />
+                        <img src={require("../../images/neutralb.PNG")} alt="Neutral B Frame Data" />
                         <p>Bowser has many good attacks in his moveset, but this one is certainly his best, having been improved vastly from Smash 4.
                         <br />It has continuous hitboxes that decrease in size the longer you hold the B button. It can also be angled upwards or downwards,
                         giving it more flexibility in many scenarios.
@@ -280,8 +280,8 @@ export default function BowserGuide() {
                     </li>
                     <li className="element">
                         <h4>Side B: Flying Slam</h4>
-                        <img src={require("../../images/flyingslam.PNG")} alt="" /> <br />
-                        <img src={require("../../images/sideb.PNG")} alt="" /> 
+                        <img className='special' src={require("../../images/flyingslam.PNG")} alt="Flying Slam" /> <br />
+                        <img src={require("../../images/sideb.PNG")} alt="Side B Frame Data" /> 
                         <p>A command grab is a tool that often defines a grappler, to the point to where their core mixup game revolves around landing these incredibly dangerous moves.
                         While Bowser's side B might not be as centralizing to his playstyle as some other grapplers even in Smash, this is definitely not a tool to be slept on.
                         <br />Despite it's respectable range and absurd frame 6 startup, it does have the problem of only being active for a single frame. It is also very laggy, so don't whiff it
@@ -299,9 +299,9 @@ export default function BowserGuide() {
                     </li>
                     <li className="element">
                         <h4>Up B: Whirling Fortress</h4>
-                        <img src={require("../../images/whirlingfortress.PNG")} alt="" /> <br />
-                        <img src={require("../../images/upb.PNG")} alt="" />
-                        <img src={require("../../images/upbair.PNG")} alt="" /> 
+                        <img className='special' src={require("../../images/whirlingfortress.PNG")} alt="Whirling Fortress" /> <br />
+                        <img src={require("../../images/upb.PNG")} alt="Up B Frame Data" />
+                        <img src={require("../../images/upbair.PNG")} alt="Aerial Up B Frame Data" /> 
                         <p>One of the most unique and notorious attacks ever slapped onto a heavyweight, it became Bowser's best (and often only) way to really relieve shield 
                         pressure from his opponent, who would otherwise leave Bowser stuck in his shield throughout the entire match. Because of this, it's common to see counterplay 
                         from opponents to specifically beat up B, like shielding, spacing around it, rolling away or dashing away from it, all of which you can potentially catch.
@@ -315,11 +315,11 @@ export default function BowserGuide() {
                         <br />Keep in mind as well, that the up B in the air has a pretty high hitbox that makes it pretty susceptible to being countered offstage, but can also hit opponents
                         trying to edgeguard you who either go offstage too late or arent shielding at the ledge as a mixup.</p>
                     </li>
-                    <li className="element">
+                    <li className='element'>
                         <h4>Down B: Bowser Bomb</h4>
-                        <img src={require("../../images/bowserbomb.PNG")} alt="" /><br />
-                        <img src={require("../../images/downb.PNG")} alt="" />
-                        <img src={require("../../images/downbair.PNG")} alt="" /> 
+                        <img className='special' src={require("../../images/bowserbomb.PNG")} alt="Bowser Bomb" /><br />
+                        <img src={require("../../images/downb.PNG")} alt="Down B Frame Data" />
+                        <img src={require("../../images/downbair.PNG")} alt="Aerial Down B Frame Data" /> 
                         <p>Like I mentioned, Bowser's kit isnt ALL broken moves, as down B is merely decent.
                         <br />Its a shieldbreaker both on the ground and in the air, which can allow you to grab the ledge if close enough, similar to Yoshi. The big downside is it's significantly slower
                         startup, making it less viable as a mixup tool, since it's slow enough to be escaped if reacted to. That being said, there are many scenarios where the opponent isnt expecting 
@@ -340,8 +340,8 @@ export default function BowserGuide() {
                 <ul className="list">
                     <li className="element">
                         <h4>Grab</h4>
-                        <img src={require("../../images/grab.PNG")} alt="" /><br />
-                        <img src={require("../../images/grabframedata.PNG")} alt="" />
+                        <img className='special' src={require("../../images/grab.PNG")} alt="Grab" /><br />
+                        <img src={require("../../images/grabframedata.PNG")} alt="Grab Frame Data" />
                         <p>Bowser's grab is unique in that its frame 8, so it is slower than average, but has great range to compensate. This even makes it viable out of shield 
                         (even if taking into account the extra 4 frames it takes for the shieldgrab to come out after you actually block something) since the sheer range allows it to
                         grab opponents where most of the non-tether grabs just dont quite reach, which is a game breaker in a lot of matchups.
