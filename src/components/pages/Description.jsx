@@ -9,22 +9,18 @@ export default function Description() {
             </div>
             <div className="body">
                 
-                <p>My name is Lautaro Molina, I am a 19-year old from Argentina and I love (besides playing Smash) doing music and Programming.
+                <p>My name is Lautaro Molina, I am a 19-year old from Argentina and I love (besides playing Smash) making music and Programming.
                 <br />Here, let me show you something:
                 </p>
                 <h4 className="title">Skills</h4>
                 <div className="list">
                     <div className="element">
-                        <p>React</p>
-                    </div>
-                    <div className="element">
-                        <p>Web development: HTML5, CSS and JavaScript</p>
-                    </div>
-                    <div className="element">
-                        <p>Software development: Python</p>
-                    </div>
-                    <div className="element">
-                        <p></p>
+                        <img className='special' src={require("../../images/html.png" )} alt="HTML5" />
+                        <img className='special' src={require("../../images/css.png" )} alt="CSS3" />
+                        <img className='special' src={require("../../images/javascript.png" )} alt="JS" />
+                        <img className='special' src={require("../../images/react.png" )} alt="React" />
+                        <img className='special' src={require("../../images/python.png" )} alt="Python" />
+                        <img className='special' src={require("../../images/english-certificate.png" )} alt="First Certificate English" />
                     </div>
                 </div>
                 <h4 className='title'>Work Experience</h4>
@@ -42,6 +38,27 @@ export default function Description() {
                         <br />My tasks in the position involved: utilizing ZoHo People, Google Drive and Confluence to manage different pieces of information, such 
                         as books, documents, bills as well as instructional articles for utilizing different tools.</p>
                     </div>    
+                </div>
+                <h4 className="title">Education</h4>
+                <div className="list">
+                    <div className="element">
+                    <a href="https://huergo.edu.ar/" target='_blank' rel='noreferrer'>
+                    <img className='special' src={require("../../images/huergo.png")} alt="Huergo Logo" />
+                    </a>
+                    <p>From: 2016 - To: 2021
+                    <br />Title: Computer Oriented Technician
+                    <br />Social Media: <a href="https://twitter.com/institutohuergo" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/institutohuergo/" target='_blank' rel='noreferrer'>Instagram</a>
+                    </p>
+                    </div>
+                    <div className="element">
+                    <a href="https://www.coderhouse.com/" target='_blank' rel='noreferrer'>
+                    <img className='special' src={require("../../images/coderhouse.png")} alt="Coderhouse Logo" />
+                    </a>
+                    <p>From: 2022 - Ongoing
+                    <br />Course: React JS
+                    <br />Social Media: <a href="https://twitter.com/coderhouse" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/coderhouse/" target='_blank' rel='noreferrer'>Instagram</a>
+                    </p>
+                    </div>
                 </div>
             </div>
             <p className='body'>Written by: Elmo</p>
