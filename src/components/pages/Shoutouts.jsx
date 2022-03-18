@@ -15,7 +15,7 @@ export default function Shoutouts () {
                 <div className='list'>
                     <div className='element'>
                         <a href="https://twitter.com/El_Boira" target='_blank' rel='noreferrer'>
-                            <img className='special' src={require('../../images/boira.jpg')} alt='Boira'/>
+                            <img className='special special-button' src={require('../../images/boira.jpg')} alt='Boira'/>
                         </a>
                         <p>The single best Bowser in Argentina: here is Boira, ladies and gentlemen!
                         <br />Not only is he a really strong player with some great results behind him,
@@ -25,7 +25,7 @@ export default function Shoutouts () {
                     </div>
                     <div className='element'>
                         <a href="https://twitter.com/venharcore" target='_blank' rel='noreferrer'>
-                            <img className='special' src={require("../../images/venharcore.jpg" )} alt='venharcore' />
+                            <img className='special special-button' src={require("../../images/venharcore.jpg" )} alt='venharcore' />
                         </a>
                         <p>For those of you who dont know him, Venharcore is a Chilean Bowser player who,
                         by the way, has been doing super well results-wise.
@@ -33,7 +33,7 @@ export default function Shoutouts () {
                     </div>
                     <div className='element'>
                         <a href="https://twitter.com/polazo6942" target='_blank' rel='noreferrer'>
-                            <img className='special' src={require("../../images/polazo.jpg" )} alt='polazo6942' />
+                            <img className='special special-button' src={require("../../images/polazo.jpg" )} alt='polazo6942' />
                         </a>
                         <p>Here we have another Chilean Bowser player: Polazo! 
                         For this one I need to provide some context:
@@ -47,7 +47,7 @@ export default function Shoutouts () {
                     </div>
                     <div className='element'>
                         <a href="https://twitter.com/DLeon420" target='_blank' rel='noreferrer'>
-                            <img className='special' src={require("../../images/leon.jpg")} alt='LeoN' />
+                            <img className='special special-button' src={require("../../images/leon.jpg")} alt='LeoN' />
                         </a>
                         <p>And now we get to LeoN, the single best Bowser player in the world.
                         <br />This guy has been an inspiration for me ever since I decided to main Bowser,

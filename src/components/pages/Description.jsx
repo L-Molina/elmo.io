@@ -27,7 +27,7 @@ export default function Description() {
                 <div className="list">
                     <div className="element">
                         <a href="https://www.gm2dev.com/" target='_blank' rel='noreferrer'>
-                        <img className='special' src={require("../../images/gm2dev.png")} alt="Gm2Dev Logo" />
+                        <img className='special special-button' src={require("../../images/gm2dev.png")} alt="Gm2Dev Logo" />
                         </a>                        
                         <p>Work Field: Administration (Part-Time)</p>
                         <p>Active Period: February 2021-August 2021</p>
@@ -43,20 +43,22 @@ export default function Description() {
                 <div className="list">
                     <div className="element">
                     <a href="https://huergo.edu.ar/" target='_blank' rel='noreferrer'>
-                    <img className='special' src={require("../../images/huergo.png")} alt="Huergo Logo" />
+                    <img className='special special-button' src={require("../../images/huergo.png")} alt="Huergo Logo" />
                     </a>
                     <p>From: 2016 - To: 2021
                     <br />Title: Computer Oriented Technician
-                    <br />Social Media: <a href="https://twitter.com/institutohuergo" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/institutohuergo/" target='_blank' rel='noreferrer'>Instagram</a>
+                    <br />Social Media: <a href="https://twitter.com/institutohuergo" target='_blank' rel='noreferrer'>Twitter</a> 
+                    <a href="https://www.instagram.com/institutohuergo/" target='_blank' rel='noreferrer'>Instagram</a>
                     </p>
                     </div>
                     <div className="element">
                     <a href="https://www.coderhouse.com/" target='_blank' rel='noreferrer'>
-                    <img className='special' src={require("../../images/coderhouse.png")} alt="Coderhouse Logo" />
+                    <img className='special special-button' src={require("../../images/coderhouse.png")} alt="Coderhouse Logo" />
                     </a>
                     <p>From: 2022 - Ongoing
                     <br />Course: React JS
-                    <br />Social Media: <a href="https://twitter.com/coderhouse" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/coderhouse/" target='_blank' rel='noreferrer'>Instagram</a>
+                    <br />Social Media: <a href="https://twitter.com/coderhouse" target='_blank' rel='noreferrer'>Twitter</a> 
+                    <a href="https://www.instagram.com/coderhouse/" target='_blank' rel='noreferrer'>Instagram</a>
                     </p>
                     </div>
                 </div>
