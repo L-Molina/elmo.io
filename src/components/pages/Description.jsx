@@ -8,7 +8,6 @@ export default function Description() {
                 <h2>Who am I?</h2>
             </div>
             <div className="body">
-                
                 <p>My name is Lautaro Molina, I am a 19-year old from Argentina and I love (besides playing Smash) making music and Programming.
                 <br />Here, let me show you something:
                 </p>
@@ -32,6 +31,7 @@ export default function Description() {
                         <p>Work Field: Administration (Part-Time)</p>
                         <p>Active Period: February 2021-August 2021</p>
                         <p>Social Media: <a href="https://twitter.com/gm2dev" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/gm2dev/" target='_blank' rel='noreferrer'>Instagram</a></p>
+                        <br />
                         <p>I have a lot to say about GM2, but I won't spend time talking about what they do, since you can see their website above.
                         To begin with, the community is really welcoming to new workers, on top of having an excellent working environment, whether
                         you work from home (which is what I did) or actually go to the office, so you never feel uncomfortable doing your job.
@@ -40,6 +40,7 @@ export default function Description() {
                     </div>    
                 </div>
                 <h4 className="title">Education</h4>
+                <p className='element'>My education mostly included the knowledge that would help me with my area of interest: Programming</p>
                 <div className="list">
                     <div className="element">
                     <a href="https://huergo.edu.ar/" target='_blank' rel='noreferrer'>
@@ -47,8 +48,7 @@ export default function Description() {
                     </a>
                     <p>From: 2016 - To: 2021
                     <br />Title: Computer Oriented Technician
-                    <br />Social Media: <a href="https://twitter.com/institutohuergo" target='_blank' rel='noreferrer'>Twitter</a> 
-                    <a href="https://www.instagram.com/institutohuergo/" target='_blank' rel='noreferrer'>Instagram</a>
+                    <br />Social Media: <a href="https://twitter.com/institutohuergo" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/institutohuergo/" target='_blank' rel='noreferrer'> Instagram</a>
                     </p>
                     </div>
                     <div className="element">
@@ -57,8 +57,15 @@ export default function Description() {
                     </a>
                     <p>From: 2022 - Ongoing
                     <br />Course: React JS
-                    <br />Social Media: <a href="https://twitter.com/coderhouse" target='_blank' rel='noreferrer'>Twitter</a> 
-                    <a href="https://www.instagram.com/coderhouse/" target='_blank' rel='noreferrer'>Instagram</a>
+                    <br />Social Media: <a href="https://twitter.com/coderhouse" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/coderhouse/" target='_blank' rel='noreferrer'> Instagram</a>
+                    </p>
+                    </div>
+                    <div className="element">
+                    <a href="https://www.cambridgeenglish.org/" target='_blank' rel='noreferrer'>
+                    <img className='special special-button' src={require("../../images/english-certificate.png" )} alt="First Certificate English" />
+                    </a>
+                    <p>From: 2018 - 2021
+                    <br />Level: First Certficate English (B2) - Cambridge English: Advanced (C1)
                     </p>
                     </div>
                 </div>
