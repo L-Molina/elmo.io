@@ -19,7 +19,7 @@ export default function Description() {
                         <img className='special' src={require("../../images/javascript.png" )} alt="JS" />
                         <img className='special' src={require("../../images/react.png" )} alt="React" />
                         <img className='special' src={require("../../images/python.png" )} alt="Python" />
-                        <img className='special' src={require("../../images/english-certificate.png" )} alt="First Certificate English" />
+                        <img className='special' src={require("../../images/csharp-logo.png" )} alt="C#" />
                     </div>
                 </div>
                 <h4 className='title'>Work Experience</h4>
