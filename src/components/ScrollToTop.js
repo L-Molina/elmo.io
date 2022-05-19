@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Show button when page is scrolled up to a given distance
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
       setIsVisible(true);
@@ -12,8 +11,6 @@ export default function ScrollToTop() {
     }
   };
 
-  // Set the top cordinate to 0
-  // Make scrolling smooth
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,

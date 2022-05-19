@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import '../../App.css';
 
 export default function Description() {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <div className='description'>
             <div className="title">
@@ -13,7 +18,7 @@ export default function Description() {
                 </p>
                 <h4 className="title">Skills</h4>
                 <div className="list">
-                    <div className="element">
+                    <div className="imagegrid">
                         <img className='special' src={require("../../images/html.png" )} alt="HTML5" />
                         <img className='special' src={require("../../images/css.png" )} alt="CSS3" />
                         <img className='special' src={require("../../images/javascript.png" )} alt="JS" />
@@ -46,7 +51,7 @@ export default function Description() {
                     <a href="https://huergo.edu.ar/" target='_blank' rel='noreferrer'>
                     <img className='special special-button' src={require("../../images/huergo.png")} alt="Huergo Logo" />
                     </a>
-                    <p>From: 2016 - To: 2021
+                    <p>From: March 2016 - To: December 2021
                     <br />Title: Computer Oriented Technician
                     <br />Social Media: <a href="https://twitter.com/institutohuergo" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/institutohuergo/" target='_blank' rel='noreferrer'> Instagram</a>
                     </p>
@@ -55,7 +60,7 @@ export default function Description() {
                     <a href="https://www.coderhouse.com/" target='_blank' rel='noreferrer'>
                     <img className='special special-button' src={require("../../images/coderhouse.png")} alt="Coderhouse Logo" />
                     </a>
-                    <p>From: 2022 - Ongoing
+                    <p>From: March 2022 - May 2022
                     <br />Course: React JS
                     <br />Social Media: <a href="https://twitter.com/coderhouse" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/coderhouse/" target='_blank' rel='noreferrer'> Instagram</a>
                     </p>

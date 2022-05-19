@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import '../../App.css';
 
 export default function SSBUCareer() {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <div className="ssbucareer">
             <div className="title">
                 <h2>SSBU Career: Elmo</h2>
-                <p>Elmo has been competing for over 2 years at this point. How did he do?</p>
+                <p>Elmo has been competing for over 2 years at this point. 
+                <br /> So let's find out, how did he do?</p>
             </div>
             <div className="body">
                 <p>Written by: Elmo</p>

@@ -27,9 +27,15 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>My Social Media</h2>
-            <Link to='/socialmedia'>Twitch</Link>
-            <Link to='/socialmedia'>Youtube</Link>
-            <Link to='/socialmedia'>Twitter</Link>
+            <a href="https://twitter.com/ssbu_elmo" target='_blank' rel='noreferrer'>
+              Twitter
+            </a>
+            <a href='https://www.youtube.com/channel/UCWJPI7TW6j_aPxpYLWAij9g/featured' target='_blank' rel='noreferrer'>
+              Youtube
+            </a> 
+            <a href='https://www.twitch.tv/ssbu_elmo' target='_blank' rel='noreferrer'>
+              Twitch
+            </a> 
           </div>
         </div>
       </div>

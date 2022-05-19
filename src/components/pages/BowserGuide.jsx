@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import '../../App.css';
 
 export default function BowserGuide() {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    }); 
+
     return (
         <div className='bowser-guide'>
             <div className='title'>

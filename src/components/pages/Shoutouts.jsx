@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import '../../App.css';
 
 export default function Shoutouts () {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <div className='shoutouts'>
             <div className='title'>

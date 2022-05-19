@@ -86,6 +86,12 @@ img {
   padding-bottom: 30px;
 }
 
+.imagegrid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  padding-bottom: 20px;
+}
+
 .special {
   border-radius: 50%;
   box-shadow: 0 0 15px #290303;
