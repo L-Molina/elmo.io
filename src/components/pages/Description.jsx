@@ -19,19 +19,19 @@ export default function Description() {
                 <h4 className="title">Skills</h4>
                 <div className="list">
                     <div className="imagegrid">
-                        <img className='special' src={require("../../images/html.png" )} alt="HTML5" />
-                        <img className='special' src={require("../../images/css.png" )} alt="CSS3" />
-                        <img className='special' src={require("../../images/javascript.png" )} alt="JS" />
-                        <img className='special' src={require("../../images/react.png" )} alt="React" />
-                        <img className='special' src={require("../../images/python.png" )} alt="Python" />
-                        <img className='special' src={require("../../images/csharp-logo.png" )} alt="C#" />
+                        <img className='special-button' src={require("../../images/html.png" )} alt="HTML5" />
+                        <img className='special-button' src={require("../../images/css.png" )} alt="CSS3" />
+                        <img className='special-button' src={require("../../images/javascript.png" )} alt="JS" />
+                        <img className='special-button' src={require("../../images/react.png" )} alt="React" />
+                        <img className='special-button' src={require("../../images/python.png" )} alt="Python" />
+                        <img className='special-button' src={require("../../images/csharp-logo.png" )} alt="C#" />
                     </div>
                 </div>
                 <h4 className='title'>Work Experience</h4>
                 <div className="list">
                     <div className="element">
                         <a href="https://www.gm2dev.com/" target='_blank' rel='noreferrer'>
-                        <img className='special special-button' src={require("../../images/gm2dev.png")} alt="Gm2Dev Logo" />
+                        <img className='special-button' src={require("../../images/gm2dev.png")} alt="Gm2Dev Logo" />
                         </a>                        
                         <p>Work Field: Administration (Part-Time)</p>
                         <p>Active Period: February 2021-August 2021</p>
@@ -49,7 +49,7 @@ export default function Description() {
                 <div className="list">
                     <div className="element">
                     <a href="https://huergo.edu.ar/" target='_blank' rel='noreferrer'>
-                    <img className='special special-button' src={require("../../images/huergo.png")} alt="Huergo Logo" />
+                    <img className='special-button' src={require("../../images/huergo.png")} alt="Huergo Logo" />
                     </a>
                     <p>From: March 2016 - To: December 2021
                     <br />Title: Computer Oriented Technician
@@ -58,7 +58,7 @@ export default function Description() {
                     </div>
                     <div className="element">
                     <a href="https://www.coderhouse.com/" target='_blank' rel='noreferrer'>
-                    <img className='special special-button' src={require("../../images/coderhouse.png")} alt="Coderhouse Logo" />
+                    <img className='special-button' src={require("../../images/coderhouse.png")} alt="Coderhouse Logo" />
                     </a>
                     <p>From: March 2022 - May 2022
                     <br />Course: React JS
@@ -67,7 +67,7 @@ export default function Description() {
                     </div>
                     <div className="element">
                     <a href="https://www.cambridgeenglish.org/" target='_blank' rel='noreferrer'>
-                    <img className='special special-button' src={require("../../images/english-certificate.png" )} alt="First Certificate English" />
+                    <img className='special-button' src={require("../../images/english-certificate.png" )} alt="First Certificate English" />
                     </a>
                     <p>From: 2018 - 2021
                     <br />Level: First Certficate English (B2) - Cambridge English: Advanced (C1)
