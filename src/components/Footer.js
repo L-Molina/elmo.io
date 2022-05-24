@@ -1,6 +1,4 @@
-import React from 'react';
 import './Footer.css';
-
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -8,7 +6,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Hoping to have fun with you!
+          Rising to the top!
         </p>
         <p className='footer-subscription-text'>
           Become part of the Elmo community! We got chocolate!
@@ -48,21 +46,12 @@ function Footer() {
           </div>
           <small className='website-rights'>E-L-M-O © 2022</small>
           <div className='social-icons'>
-            <Link
-              className='social-icon-link'
-              to='/socialmedia'
-              aria-label='Youtube'
-            >
+            <a className='social-icon-link' href='https://www.youtube.com/channel/UCWJPI7TW6j_aPxpYLWAij9g/featured' target='_blank' rel='noreferrer'>
               <i className='fab fa-youtube' />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to='/socialmedia'
-              aria-label='Twitter'
-            >
+            </a>
+            <a className='social-icon-link' href="https://twitter.com/ssbu_elmo" target='_blank' rel='noreferrer'>
               <i className='fab fa-twitter' />
-            </Link>
-            
+            </a>
           </div>
         </div>
       </section>
@@ -71,54 +60,3 @@ function Footer() {
 }
 
 export default Footer;
-
-/*
-import { Button } from './Button';
-
-
-          <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div>
-
-<div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
-        </div> 
-
-<Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Linkedin'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-        
-<Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-*/

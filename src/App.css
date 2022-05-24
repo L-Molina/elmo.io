@@ -93,14 +93,27 @@ img {
 }
 
 .special {
+  border-radius: 5px;
+  box-shadow: 0 0 15px #551b1b;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.special:hover {
+  transition: all 0.2s linear;
+  transform: scale(1.05);
+}
+
+.special-button {
+  max-width: 50%;
   border-radius: 50%;
-  box-shadow: 0 0 15px #290303;
+  box-shadow: 0 0 15px #551b1b;
   object-fit: cover;
   margin: 15px;
 }
 
 .special-button:hover {
-  transition: all 0.3s linear;
+  transition: all 0.2s linear;
   transform: scale(1.05);
 }
 

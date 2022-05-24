@@ -1,4 +1,3 @@
-import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
@@ -25,7 +24,3 @@ function HeroSection() {
 }
 
 export default HeroSection;
-
-/* <video autoPlay loop muted>
-                    <source src='' type='video/mp4'/>
-                </video> */

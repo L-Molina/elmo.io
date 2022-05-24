@@ -1,4 +1,3 @@
-import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
 
@@ -11,7 +10,9 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem
                             src={require('../images/bowser.jpg')}
-                            text='Shoutout to the rest of the Bowser Community! Here are some players that helped me out a lot!'
+                            text='Here are some 
+                            people in the Smash community 
+                            I wanted to give a shoutout!'
                             label='Shoutouts'
                             path='/shoutouts'
                         />
@@ -19,13 +20,16 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem
                             src={require('../images/bowser-2.jpg')}
-                            text="Here is my Bowser guide, where I break down Bowser's moveset and gameplan!"
+                            text="Here is my Bowser guide,
+                            where I break down 
+                            Bowser's moveset and gameplan!"
                             label='Bowser Guide'
                             path='/bowser-guide'
                         />
                         <CardItem
                             src={require('../images/revival-of-ultimate.png')}
-                            text='My run at Revival of Ultimate! Look at my biggest tournament run so far!'
+                            text='My competitive career in Smash Ultimate! 
+                            Look at my biggest tournament runs so far!'
                             label='Smash Ultimate'
                             path='/ssbucareer'
                         />

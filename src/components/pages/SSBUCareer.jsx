@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import '../../App.css';
 
 export default function SSBUCareer() {
@@ -33,14 +33,14 @@ export default function SSBUCareer() {
                                 <h3>Coin Cup #8</h3>
                                 <p>This was the first tournament I ever attended, and... I did exactly as you would
                                 expect with this being my first time.</p>
-                                <img src={require('../../images/coin-cup-8.PNG')} alt="Coin Cup 8" />
+                                <img className='special' src={require('../../images/coin-cup-8.PNG')} alt="Coin Cup 8" />
                                 <p>Ok, this wasn't the best of starts but surely we pick up from here, right...?</p>
                             </div>
                             <div className="element">
                                 <h3>Coin Cup #9</h3>
                                 <p>Oh, dang it... Well, didn't go well once again. It's a bit unfortunate, but what can 
                                 you do, right?</p>
-                                <img src={require('../../images/coin-cup-9.PNG')} alt="Coin Cup 9" />
+                                <img className='special' src={require('../../images/coin-cup-9.PNG')} alt="Coin Cup 9" />
                                 <p>Welp, there isn't much to say about this. Maybe smash just isn't for m- Oh, wait a minute!</p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ export default function SSBUCareer() {
                         <div className="list">
                             <div className="element">
                                 <h3>Smash Chronicles #1</h3>
-                                <img src={require('../../images/smash-chronicles.PNG')} alt="Smash Chronicles"/>
+                                <img className='special' src={require('../../images/smash-chronicles.PNG')} alt="Smash Chronicles"/>
                                 <p>After having my first opponent DQ'd out of winners, I faced off against the inkling main 
                                 Tinchomaz, who I can fairly say was a pretty strong player since the set was very even throughout.
                                 <br />But oh boy, Losers is the real deal here: I had to fight none other than Toti, A ROB/Link player
@@ -67,7 +67,7 @@ export default function SSBUCareer() {
                             <div className="element">
                                 <h3>Distance Demon #4</h3>
                                 <p>Another tournament where I only had a single victory, but it's definitely worth talking about.</p>
-                                <img src={require('../../images/distance-demon-4.PNG')} alt="Distance demon 4"/>
+                                <img className='special' src={require('../../images/distance-demon-4.PNG')} alt="Distance demon 4"/>
                                 <p>So, at first glance, this tournament wasnt all that notable. I mean, I beat someone who was expected
                                 to end up in last place and that's it, right? 
                                 <br />While that is true, this tournament also started somewhat of a storyline with Royal, as 
@@ -92,7 +92,7 @@ export default function SSBUCareer() {
                             <div className="element">
                                 <h3>Revival of Ultimate</h3>
                                 <p>This is it, chief. This is Elmo at it's most terrifying (yet).</p>
-                                <img src={require('../../images/revival-of-ultimate-result.PNG')} alt="Revival of Ultimate" />
+                                <img className='special' src={require('../../images/revival-of-ultimate-result.PNG')} alt="Revival of Ultimate" />
                                 <p>This tournament was the first time I came close to cracking Top 8 at any tournament I have ever attended,
                                 and it featured some interesting matches. Here's a rundown.
                                 <br />My first match of the night would put me face to face with R-QI, who played Sheik/R.O.B., and was rather

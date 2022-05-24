@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import '../../App.css';
 
 export default function Description() {
