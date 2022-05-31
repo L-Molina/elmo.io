@@ -127,6 +127,23 @@ export default function SSBUCareer() {
                             </div>
                         </div>
                     </div>
+                    <div className="title">
+                        <h3>Offline Appearances</h3>
+                    </div>
+                    <div>
+                        <p>See, up until now I talked about my showings in online tournaments.
+                        However, offline is a different story entirely, having a lot to prove now that
+                        I could grow as a player by playing from the comfort of my own room.
+                        <br />
+                        Join me once again, as we take a deep dive into my showings at in-person competitions.
+                        </p>
+                    </div>
+                    <div className="list">
+                        <div className="element">
+                            <h3 className="title">Smash Club Weeklies</h3>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

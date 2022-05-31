@@ -20,7 +20,7 @@ export default function Shoutouts () {
                 <div className='list'>
                     <div className='element'>
                         <a href="https://twitter.com/El_Boira" target='_blank' rel='noreferrer'>
-                            <img className='special-button' src={require('../../images/boira.jpg')} alt='Boira'/>
+                            <img className='special-button shoutout-img' src={require('../../images/boira.jpg')} alt='Boira'/>
                         </a>
                         <p>The single best Bowser in Argentina: here is Boira, ladies and gentlemen!
                         <br />Not only is he a really strong player with some great results behind him,
@@ -29,7 +29,7 @@ export default function Shoutouts () {
                     </div>
                     <div className='element'>
                         <a href="https://twitter.com/venharcore" target='_blank' rel='noreferrer'>
-                            <img className='special-button' src={require("../../images/venharcore.jpg" )} alt='venharcore' />
+                            <img className='special-button shoutout-img' src={require("../../images/venharcore.jpg" )} alt='venharcore' />
                         </a>
                         <p>For those of you who dont know him, Venharcore is a Chilean Bowser player who,
                         by the way, has been doing super well results-wise.
@@ -37,7 +37,7 @@ export default function Shoutouts () {
                     </div>
                     <div className='element'>
                         <a href="https://twitter.com/polazo6942" target='_blank' rel='noreferrer'>
-                            <img className='special-button' src={require("../../images/polazo.jpg" )} alt='polazo6942' />
+                            <img className='special-button shoutout-img' src={require("../../images/polazo.jpg" )} alt='polazo6942' />
                         </a>
                         <p>Here we have another Chilean Bowser player: Polazo! 
                         For this one I need to provide some context:
@@ -50,15 +50,19 @@ export default function Shoutouts () {
                     </div>
                     <div className="element">
                         <a href="https://twitter.com/Aivo382" target='_blank' rel='noreferrer'>
-                            <img src={require("../../images/aivo.jpg")} alt="Aivo" className="special-button" />
+                            <img src={require("../../images/aivo.jpg")} alt="Aivo" className="special-button shoutout-img" />
                         </a>
                         <p>
-                        Aivo
+                        My best friend in the community, I think it might be ovious why he needs to be on here. 
+                        Incredibly talented, suffocating in his gameplay and always out for success at tournaments, 
+                        Aivo is the main reason why I think Mario is top 1 in Ultimate, the best character in the game.
+                        I couldn't thank him enough for everytime he came home from what felt like an eternity just to
+                        grind with me. 
                         </p>
                     </div>
                     <div className="element">
                         <a href="https://twitter.com/AlanAlan1864" target='_blank' rel='noreferrer'>
-                            <img src={require("../../images/oz.jpg")} alt="Oz (Alan)" className="special-button" />
+                            <img src={require("../../images/oz.jpg")} alt="Oz (Alan)" className="special-button shoutout-img" />
                         </a>
                         <p>
                         Oz (Alan)
@@ -66,7 +70,7 @@ export default function Shoutouts () {
                     </div>
                     <div className="element">
                         <a href="https://twitter.com/SsbByaks" target='_blank' rel='noreferrer'>
-                            <img src={require("../../images/byaks.jpg")} alt="Byaks" className="special-button" />
+                            <img src={require("../../images/byaks.jpg")} alt="Byaks" className="special-button shoutout-img" />
                         </a>
                         <p>
                         Byaks
@@ -74,7 +78,7 @@ export default function Shoutouts () {
                     </div>
                     <div className="element">
                         <a href="https://twitter.com/JacintoDCSmash" target='_blank' rel='noreferrer'>
-                            <img src={require("../../images/jacintodc.jpg")} alt="CajintoCDs" className="special-button" />
+                            <img src={require("../../images/jacintodc.jpg")} alt="CajintoCDs" className="special-button shoutout-img" />
                         </a>
                         <p>
                         JacintoDC
@@ -82,7 +86,7 @@ export default function Shoutouts () {
                     </div>
                     <div className="element">
                         <a href="https://twitter.com/mrflitcher" target='_blank' rel='noreferrer'>
-                            <img src={require("../../images/mrflitcher.jpg")} alt="Mr. Flitcher" className="special-button" />
+                            <img src={require("../../images/mrflitcher.jpg")} alt="Mr. Flitcher" className="special-button shoutout-img" />
                         </a>
                         <p>
                         Mr. Flitcher
@@ -90,7 +94,7 @@ export default function Shoutouts () {
                     </div>
                     <div className="element">
                         <a href="https://twitter.com/MetagrossOP" target='_blank' rel='noreferrer'>
-                            <img src={require("../../images/angie.jpg")} alt="MetagrossOP" className="special-button" />
+                            <img src={require("../../images/angie.jpg")} alt="MetagrossOP" className="special-button shoutout-img" />
                         </a>
                         <p>
                         Angie
@@ -98,15 +102,17 @@ export default function Shoutouts () {
                     </div>
                     <div className="element">
                         <a href="https://twitter.com/rodriiponce1" target='_blank' rel='noreferrer'>
-                            <img src={require("../../images/baki.jpg")} alt="Baki" className="special-button" />
+                            <img src={require("../../images/baki.jpg")} alt="Baki" className="special-button shoutout-img" />
                         </a>
                         <p>
-                        Baki
+                        Aside from being a very kind person in his own right, and always being willing to play and improve, 
+                        Baki is the FGC player of Smash Ultimate in Argentina, piloting all 4 of the characters that fit
+                        this bill: Ryu, Ken, Kazuya, and most importantly, Terry (Don't worry, we will talk about this in a minute). 
                         </p>
                     </div>
                     <div className="element">
                         <a href="https://twitter.com/LDarkstalker" target='_blank' rel='noreferrer'>
-                            <img src={require("../../images/darkstalker.jpg")} alt="Darkstalker" className="special-button" />
+                            <img src={require("../../images/darkstalker.jpg")} alt="Darkstalker" className="special-button shoutout-img" />
                         </a>
                         <p>
                         Darkstalker
@@ -114,7 +120,7 @@ export default function Shoutouts () {
                     </div>
                     <div className='element'>
                         <a href="https://twitter.com/DLeon420" target='_blank' rel='noreferrer'>
-                            <img className='special-button' src={require("../../images/leon.jpg")} alt='LeoN' />
+                            <img className='special-button shoutout-img' src={require("../../images/leon.jpg")} alt='LeoN' />
                         </a>
                         <p>And now we get to LeoN, the single best Bowser player in the world.
                         <br />This guy has been an inspiration for me ever since I decided to main Bowser. 

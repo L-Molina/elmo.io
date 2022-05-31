@@ -1,7 +1,7 @@
 import { useLayoutEffect } from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection';
-import Cards from '../Cards';
+import HeroSection from '../HeroSection/HeroSection';
+import Cards from '../Cards/Cards';
 
 function Home () {
 

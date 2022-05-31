@@ -26,7 +26,7 @@ export default function ScrollToTop() {
     <div className="scroll-to-top">
       {isVisible && 
         <div onClick={scrollToTop}>
-          <img src={require('../images/top-arrow-emoj.png')} alt='Go to top'/>
+          <img src={require('../../images/top-arrow-emoj.png')} alt='Go to top'/>
         </div>}
     </div>
   );

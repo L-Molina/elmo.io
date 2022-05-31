@@ -9,7 +9,7 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src={require('../images/bowser.jpg')}
+                            src={require('../../images/bowser.jpg')}
                             text='Here are some 
                             people in the Smash community 
                             I wanted to give a shoutout!'
@@ -19,7 +19,7 @@ function Cards() {
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
-                            src={require('../images/bowser-2.jpg')}
+                            src={require('../../images/bowser-2.jpg')}
                             text="Here is my Bowser guide,
                             where I break down 
                             Bowser's moveset and gameplan!"
@@ -27,7 +27,7 @@ function Cards() {
                             path='/bowser-guide'
                         />
                         <CardItem
-                            src={require('../images/revival-of-ultimate.png')}
+                            src={require('../../images/revival-of-ultimate.png')}
                             text='My competitive career in Smash Ultimate! 
                             Look at my biggest tournament runs so far!'
                             label='Smash Ultimate'
