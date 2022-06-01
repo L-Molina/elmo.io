@@ -61,11 +61,32 @@ export default function Shoutouts () {
                         </p>
                     </div>
                     <div className="element">
+                        <a href="https://twitter.com/JacintoDCSmash" target='_blank' rel='noreferrer'>
+                            <img src={require("../../images/jacintodc.jpg")} alt="CajintoCDs" className="special-button shoutout-img" />
+                        </a>
+                        <p>
+                        JacintoDC
+                        </p>
+                    </div>
+                    <div className="element">
                         <a href="https://twitter.com/AlanAlan1864" target='_blank' rel='noreferrer'>
                             <img src={require("../../images/oz.jpg")} alt="Oz (Alan)" className="special-button shoutout-img" />
                         </a>
                         <p>
-                        Oz (Alan)
+                        Not just one of my better friends in the smash community at large, but also probably the player I
+                        admire the most, which is pretty insane considering we are talking about a Zelda and Byleth player
+                        of all things. Still, if you want flashy and fast pace gameplay and extremely hype clips even in
+                        tournament, look no further than Oz.
+                        </p>
+                    </div>
+                    <div className="element">
+                        <a href="https://twitter.com/rodriiponce1" target='_blank' rel='noreferrer'>
+                            <img src={require("../../images/baki.jpg")} alt="Baki" className="special-button shoutout-img" />
+                        </a>
+                        <p>
+                        Aside from being a very kind person in his own right, and always being willing to play and improve, 
+                        Baki is the FGC player of Smash Ultimate in Argentina, piloting all 4 of the characters that fit
+                        this bill: Ryu, Ken, Kazuya, and most importantly, Terry (Don't worry, we will talk about this in a minute). 
                         </p>
                     </div>
                     <div className="element">
@@ -74,14 +95,6 @@ export default function Shoutouts () {
                         </a>
                         <p>
                         Byaks
-                        </p>
-                    </div>
-                    <div className="element">
-                        <a href="https://twitter.com/JacintoDCSmash" target='_blank' rel='noreferrer'>
-                            <img src={require("../../images/jacintodc.jpg")} alt="CajintoCDs" className="special-button shoutout-img" />
-                        </a>
-                        <p>
-                        JacintoDC
                         </p>
                     </div>
                     <div className="element">
@@ -101,21 +114,27 @@ export default function Shoutouts () {
                         </p>
                     </div>
                     <div className="element">
-                        <a href="https://twitter.com/rodriiponce1" target='_blank' rel='noreferrer'>
-                            <img src={require("../../images/baki.jpg")} alt="Baki" className="special-button shoutout-img" />
-                        </a>
-                        <p>
-                        Aside from being a very kind person in his own right, and always being willing to play and improve, 
-                        Baki is the FGC player of Smash Ultimate in Argentina, piloting all 4 of the characters that fit
-                        this bill: Ryu, Ken, Kazuya, and most importantly, Terry (Don't worry, we will talk about this in a minute). 
-                        </p>
-                    </div>
-                    <div className="element">
                         <a href="https://twitter.com/LDarkstalker" target='_blank' rel='noreferrer'>
                             <img src={require("../../images/darkstalker.jpg")} alt="Darkstalker" className="special-button shoutout-img" />
                         </a>
                         <p>
-                        Darkstalker
+                        Remember when I mentioned Terry when talking about Baki? Let's talk about that.
+                        <br />
+                        Terry has been kind of a guilty pleasure for me to play ever since my interest raised 
+                        for him back in March 2022. Since then, as of me writing this part (June 2022), I gathered
+                        more set wins at offline tourneys with the KOF guy than with Bowser, ONE more extra set,
+                        to be exact. Yea, I know.
+                        <br />
+                        Now, about Darkstalker: He's one of the best Terry players in the world, and the best
+                        in Europe. What caught my attention about his play was how little things he actually
+                        did when he played: everything he did was just hitting, and making it pay off. 
+                        It was some truly inspiring stuff.
+                        <br />
+                        Then, by complete surprise, I have the chance to talk to him on Twitter, and he
+                        was kind enough to offer a way to help me improve: a metafy session, VOD review, stuff like that.
+                        I didn't say yes only because I couldn't really afford the session myself, but with no doubt
+                        I would've accepted in a heartbeat otherwise. I admire this guy's play, go check him out. 
+                        <br />(additional information: <a href="https://metafy.gg/@darkstalker" target='_blank' rel='noreferrer'>Metafy</a>)
                         </p>
                     </div>
                     <div className='element'>
