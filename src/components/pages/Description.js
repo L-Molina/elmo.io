@@ -48,32 +48,33 @@ export default function Description() {
                 <p className='element'>My education mostly included the knowledge that would help me with my area of interest: Programming</p>
                 <div className="list">
                     <div className="element">
-                    <a href="https://huergo.edu.ar/" target='_blank' rel='noreferrer'>
-                    <img className='special-button' src={require("../../images/huergo.png")} alt="Huergo Logo" />
-                    </a>
-                    <p>From: March 2016 - To: December 2021
-                    <br />Title: Computer Oriented Technician
-                    <br />Social Media: <a href="https://twitter.com/institutohuergo" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/institutohuergo/" target='_blank' rel='noreferrer'> Instagram</a>
-                    </p>
+                        <a href="https://huergo.edu.ar/" target='_blank' rel='noreferrer'>
+                            <img className='special-button' src={require("../../images/huergo.png")} alt="Huergo Logo" />
+                        </a>
+                        <p>From: March 2016 - To: December 2021
+                        <br />Title: Computer Oriented Technician
+                        <br />Social Media: <a href="https://twitter.com/institutohuergo" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/institutohuergo/" target='_blank' rel='noreferrer'> Instagram</a>
+                        </p>
                     </div>
                     <div className="element">
-                    <a href="https://www.coderhouse.com/" target='_blank' rel='noreferrer'>
-                    <img className='special-button' src={require("../../images/coderhouse.png")} alt="Coderhouse Logo" />
-                    </a>
-                    <p>From: March 2022 - May 2022
-                    <br />Course: React JS
-                    <br />Social Media: <a href="https://twitter.com/coderhouse" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/coderhouse/" target='_blank' rel='noreferrer'> Instagram</a>
-                    </p>
+                        <a href="https://www.coderhouse.com/" target='_blank' rel='noreferrer'>
+                            <img className='special-button' src={require("../../images/coderhouse.png")} alt="Coderhouse Logo" />
+                        </a>
+                        <p>From: March 2022 - May 2022
+                        <br />Course: React JS
+                        <br />Social Media: <a href="https://twitter.com/coderhouse" target='_blank' rel='noreferrer'>Twitter</a> <a href="https://www.instagram.com/coderhouse/" target='_blank' rel='noreferrer'> Instagram</a>
+                        </p>
                     </div>
                     <div className="element">
-                    <a href="https://www.cambridgeenglish.org/" target='_blank' rel='noreferrer'>
-                    <img className='special-button' src={require("../../images/english-certificate.png" )} alt="First Certificate English" />
-                    </a>
-                    <p>From: 2018 - 2021
-                    <br />Level: First Certficate English (B2) - Cambridge English: Advanced (C1)
-                    </p>
+                        <a href="https://www.cambridgeenglish.org/" target='_blank' rel='noreferrer'>
+                            <img className='special-button' src={require("../../images/english-certificate.png" )} alt="First Certificate English" />
+                        </a>
+                        <p>From: 2018 - 2021
+                        <br />Level: First Certficate English (B2) - Cambridge English: Advanced (C1)
+                        </p>
                     </div>
                 </div>
+                <h4>My Social Media: <a href="https://twitter.com/lmoli_" target='_blank' rel='noreferrer'>Twitter</a></h4>                
             </div>
             <p className='body'>Written by: Elmo</p>
         </div>

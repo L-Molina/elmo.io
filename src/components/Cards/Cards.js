@@ -33,6 +33,12 @@ function Cards() {
                             label='Smash Ultimate'
                             path='/ssbucareer'
                         />
+                        <CardItem
+                            src={require('../../images/react.png')}
+                            text='Want to know who I am? Here is where you will find it!'
+                            label='Description'
+                            path='/description'
+                        />
                     </ul>
                 </div>
             </div>
