@@ -141,7 +141,17 @@ export default function SSBUCareer() {
                     <div className="list">
                         <div className="element">
                             <h3 className="title">Smash Club Weeklies</h3>
-                            
+                            <div className="body">
+                                <h3 className='title'>March 2022</h3>
+                                <h3>Smash Club #75</h3>
+                                <h3 className='title'>April 2022</h3>
+                                <h3>Smash Club #83</h3>
+                                <h3>Smash Club #84</h3>
+                                <h3 className='title'>May 2022</h3>
+                                <h3>Smash Club #89</h3>
+                                <h3 className='title'>June 2022</h3>
+                                <h3>Smash Club #92</h3>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -62,8 +62,8 @@
 .title {
   font-size: 50px;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 img {
@@ -74,16 +74,18 @@ img {
 .body {
   font-size: 25px;
   text-align: left;
-  padding: 60px;
-  max-width: 60%;
+  padding: 40px 0px;
+  max-width: 75ch;
+  text-decoration: none;
 }
 
 .list {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .element {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
+  text-decoration: none;
 }
 
 .imagegrid {
@@ -229,11 +231,11 @@ img {
   }
 
   .list {
-    padding-top: 15px;
+    padding-top: 10px;
   }
   
   .element {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 }
 
