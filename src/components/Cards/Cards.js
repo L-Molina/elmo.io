@@ -35,7 +35,9 @@ function Cards() {
                         />
                         <CardItem
                             src={require('../../images/react.png')}
-                            text='Want to know who I am? Here is where you will find it!'
+                            text='Want to know who I am? Here is where 
+                            you will find it! My skills,
+                            education and work experience'
                             label='Description'
                             path='/description'
                         />

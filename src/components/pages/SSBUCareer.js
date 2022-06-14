@@ -15,13 +15,12 @@ export default function SSBUCareer() {
                 <br /> So let's find out, how did he do?</p>
             </div>
             <div className="body">
-                <p>Written by: Elmo</p>
                 <p>Now, I unfortunately haven't been able to reach a proper top 8 placement at a tournament
                 as of the date of this article being written (April 2022). However, that doesn't tell the full
                 story.
                 <br />With intruguing sets all over the place, ocasional upsets, and high level Smash LATAM gameplay 
                 throughout, there is already plenty to talk about within my competitive career. 
-                <br />Join me, as we break it down, starting from:
+                <br />Join me, as we break it down:
                 </p>
                 <div className="list">
                     <div className="element">
@@ -122,8 +121,18 @@ export default function SSBUCareer() {
                                 <br />Game 1 started with my Bowser not being able to deal with Lohan's unfair combination of fundamentals and insane gimmicks that threw me off guard, things that
                                 Fel hadn't even attempted to do. I felt like the run was over going into Game 2, but I ultimately decided to atleast try something 
                                 different if only for the sake of it: Roy. He did not fair any better unfortunately, as Game 2 faired in an almost equal manner, taking me out of the tournament at 9th place,
-                                my highest placing at a tournament to this day, just below Top 8.</p>
+                                my highest placing at a tournament thus far, just below Top 8.</p>
                                 <p>I was on the verge of greatness. It was this close!</p>
+                            </div>
+                            <div className="element">
+                                <h3>Smash Argentina: La Saga de Frieza</h3>
+                                <img className='special' src={require("../../images/saga-frieza-top-8.jpg")} alt="La Saga de Frieza Top 8" />
+                                <p>Technically speaking, this tornament shouldn't count for the purposes of this recap, since it was only a 7-player bracket with no prize for
+                                the winner and no traditional stage bans for the ruleset. It was moreso an excuse to beat each other up in smash. That being said, this is also
+                                by a technicality the first time I have ever been featured in a Top 8, as you can clearly see in the image above. It sucks that it was this one
+                                and not a more prestigious event with more people, but what can you do?
+                                <br />Also, I really wanted to highlight how I played here, especially given the matchups I had to endure.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -143,18 +152,24 @@ export default function SSBUCareer() {
                             <h3 className="title">Smash Club Weeklies</h3>
                             <div className="body">
                                 <h3 className='title'>March 2022</h3>
-                                <h3>Smash Club #75</h3>
+                                <h3>Smash Club #79</h3>
+                                <img className='special' src={require('../../images/smash-club-79.jpg')} alt="Smash Club 79" />
                                 <h3 className='title'>April 2022</h3>
                                 <h3>Smash Club #83</h3>
+                                <img className='special' src={require('../../images/smash-club-83.jpg')} alt="Smash Club 79" />
                                 <h3>Smash Club #84</h3>
+                                <img className='special' src={require('../../images/smash-club-84.jpg')} alt="Smash Club 79" />
                                 <h3 className='title'>May 2022</h3>
                                 <h3>Smash Club #89</h3>
+                                <img className='special' src={require('../../images/smash-club-89.jpg')} alt="Smash Club 79" />
                                 <h3 className='title'>June 2022</h3>
                                 <h3>Smash Club #92</h3>
+                                <img className='special' src={require('../../images/smash-club-79.jpg')} alt="Smash Club 79" />
                             </div>
                         </div>
                     </div>
                 </div>
+                <p>Written by: Elmo</p>
             </div>
         </div>
     )

@@ -11,7 +11,6 @@ function Footer() {
         <p className='footer-subscription-text'>
           Become part of the Elmo community! We got chocolate!
         </p>
-        
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
@@ -19,6 +18,12 @@ function Footer() {
             <h2>About Me</h2>
             <Link to='/description'>Description</Link>
             <Link to='/ssbucareer'>My Career</Link>
+          </div>
+        </div>
+        <div className='footer-link-wrapper'>
+          <div className='footer-link-items'>
+            <h2>Smash Ultimate</h2>
+            <Link to='/bowser-guide'>How to Bowser</Link>
             <Link to='/shoutouts'>Shoutouts</Link>
           </div>
         </div>
