@@ -123,11 +123,6 @@ export default function BowserGuide() {
                 shield pressure, his fastest option at all is still really slow when compared to most of the cast, 
                 and his aerial drift can be dissapointing, especially in offstage situations.</p>
                 <br />
-            </div>
-            <div className="title">
-                <h4>Conclusion</h4>
-            </div>
-            <div className="body">
                 <p>Bowser is the character I stuck with since I started playing competitive Ultimate, and have acheived notable tournament wins on strong players with the turtle.
                 I'm glad that I can show what the character has to offer, and hopefully you can say the same about reading it!
                 </p>

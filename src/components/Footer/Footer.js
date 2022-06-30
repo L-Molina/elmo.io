@@ -44,7 +44,7 @@ function Footer() {
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
-          <small className='website-rights'>E-L-M-O © 2022</small>
+          <small className='website-rights'>E-L-M-O © 2022 All Rights Reserved</small>
           <div className='social-icons'>
             <a className='social-icon-link' href='https://www.youtube.com/channel/UCWJPI7TW6j_aPxpYLWAij9g/featured' target='_blank' rel='noreferrer'>
               <i className='fab fa-youtube' />
